@@ -1,0 +1,52 @@
+:root {
+
+    --white: #fff;
+    --black: #000;
+    --lightblue: #000000;
+    
+    --font-color-base: #666;
+    --font-color-dark: #212529;
+    --font-color-light: #b0aebe;
+    --font-color-link: #57a6ff;
+
+    --footer: #34314b;
+    --footer-base: #2e2b45;
+    --contrast: rgba(246, 248, 249, 0.8);
+    --success: #64ecf5;
+    --danger: #ff8b8d;
+    --grad-1: #a1ecff;
+    --grad-2: #7dbcff;
+  
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    height: 100vh
+    
+}
+
+body:before {
+
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 800px;
+    height: 6000px;
+    background-image: linear-gradient(to right, rgba(98, 91, 91, 0), rgb(246, 242, 242));
+    transform: skew(-35deg);
+    transform-origin:top;
+}
+
+
+.top-background {
+   
+}
