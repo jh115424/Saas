@@ -1,6 +1,7 @@
 :root {
   --white: #fff;
   --light-gray: #c7eaef;
+  --gray: #d2d2d2;
   --black: #000;
   --lightblue: #000000;
 
@@ -49,21 +50,23 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 0 100px 156.25rem;
+  box-sizing: border-box;
+  border-width: 0 0 158px 156.25rem;
   border-color: transparent transparent white transparent;
-
 }
 #gradient {
   background-image: var(--grad-3);
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(to right, white, lightgray, #c7eaef);
+  box-sizing: border-box;
+  background-image: linear-gradient(to right, white, #d2d2d2, #c7eaef);
 }
 
 #solid {
   background: #d2dcea;
   width: 11.5%;
   position: relative;
+  box-sizing: border-box;
 
 }
 
@@ -76,9 +79,13 @@ body {
   height: 100%;
   border-style: solid;
   border-width: 50rem 100px 0 0;
+
   border-color: transparent var(--light-gray) transparent transparent;
+}
 
-
+::after,
+::before {
+  box-sizing: border-box;
 }
 
 /* CODE OF TOP NAVBAR */
@@ -116,7 +123,14 @@ ul {
   align-items: center;
   font-size: 20px;
   margin-right: 90px;
+
+
+
 }
+
+
+
+
 .nav-item {
   display: inline-block;
   padding: 10px 15px;
@@ -136,8 +150,8 @@ ul {
   border: none;
   color: white;
   margin-left: 3px;
-  width: 135px;
-  height: 55px;
+  width: 145px;
+  height: 60px;
   border-radius: 30px;
 }
 
@@ -151,14 +165,17 @@ ul {
 }
 
 .learn {
-
-    padding-left: 25px;
-    color: #3b87dd;
-    font-weight: 600;
+  padding-left: 25px;
+  color: #3b87dd;
+  font-weight: 600;
+  font-size: 24px;
 }
 
+
+
+
 /* motto and icons */
-.motto {
+  .motto{
   width: 50%;
   margin-left: 50px;
   font-size: 32px;
@@ -185,6 +202,15 @@ ul {
   margin-top: 2px;
 }
 
+/* h2 {
+
+    font-size: 30px;
+    font-family: "Hind", sans-serif;
+    font-family: "Lunasima", sans-serif;
+    color: #000;
+    font-weight: lighter;
+} */
+
 p.sub-header {
   margin-left: 5px;
   font-size: 26px;
@@ -194,7 +220,7 @@ p.sub-header {
 
 .icon-container {
   display: flex;
-  width: 50%;
+  /* width: 50%; */
 }
 
 .logo-icons {
@@ -278,52 +304,129 @@ p.sub-header {
 }
 
 
+
+
 /* SECOND BLOCK */
 
 .benefits {
-
-    padding-top: 125px;
-    text-align: center;
-    font-size: 30px;
+  padding-top: 125px;
+  text-align: center;
+  font-size: 30px;
 }
 
 .four-cards-container {
-    padding-top: 60px;
-    display: flex;
-  
-  
+  padding-top: 60px;
+  display: flex;
 
-    justify-content: center;
-    gap: 2rem;
-
+  justify-content: center;
+  gap: 2rem;
 }
 
 .card-content {
+  width: 275px;
+  height: 425px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px 5px #ecedef;
+}
 
-    width: 300px;
-    height: 425px;
-    border: 1px solid gray;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px 10px #ecedef;
+.card-content:hover {
+  background-color: #f1f3f5;
+}
+
+.card-icons {
+  width: 75px;
+  height: 75px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+.card-title {
+  display: flex;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.sketch {
+  background-color: #37a37f;
+  border: none;
+  font-size: 16px;
+  color: white;
+  margin-left: 20px;
+  margin-top: -5px;
+  width: 90px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+.card-paragraph {
+  font-size: 24px;
+  font-weight: 200;
+  text-align: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.3;
+  color: #8293a4;
 }
 
 
 
-  
-  .card-content:hover {
-    background-color: #f1f3f5;
-  
-  }
-/* 
-  .card-content {
+/* THIRD SECTION */
+    
+.third-section-container {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex; 
+    justify-content: center;
+        overflow: auto;
+   
+}
 
 
-  } */
+.box-sizing {
+    display: flex;
+    background-color: #f8f9fa;
+    /* width: 100%; */
+    padding-top: 300px;
+    height: 350px;
+    position: absolute;
+    margin: 20px;
+    font-size: 24px;
 
-  .card-icons {
-    width: 75px;
-    height: 75px;
-    padding-top: 25px;
-    padding-left: 25px;
-  }
+}
+
+.perspective-video {
+    height: 1000px;
+    margin-right: 60px;
+    margin-left: 50px;
+    margin-top: -75px;
+}
+
+.banner-one {
+
+    display: flex;
+    position: static;
+    height: 500px;
+    margin-top: -150px;
+    /* width: 50%; */
+}
+
+
+
+/* fourth section */
+
+.why-front {
+
+    text-align: center;
+    position: relative;
+    margin-top: 355px;
+    font-size: 30px;
+}
+
+.paragraph {
+    color: #8293a4;
+    font-size: 26px;
+    font-weight: 400;
+
+}
