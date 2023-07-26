@@ -49,9 +49,9 @@ body {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0 0 var(--size100) 156.25rem;
-  border-color: transparent transparent var(--light-gray) transparent;
-  background-image: linear-gradient(to right, white, lightgray, #c7eaef);
+  border-width: 0 0 100px 156.25rem;
+  border-color: transparent transparent white transparent;
+
 }
 #gradient {
   background-image: var(--grad-3);
@@ -63,7 +63,6 @@ body {
 #solid {
   background: #d2dcea;
   width: 11.5%;
-  /* width: 27.5%; */
   position: relative;
 
 }
@@ -75,9 +74,11 @@ body {
   right: 99%;
   width: 0;
   height: 100%;
-  border-width: 50rem var(--size100) 0 0;
-  border-color: transparent var(--color-dark) transparent transparent;
-  /* border-color: transparent var(--color-dark) transparent transparent; */
+  border-style: solid;
+  border-width: 50rem 100px 0 0;
+  border-color: transparent var(--light-gray) transparent transparent;
+
+
 }
 
 /* CODE OF TOP NAVBAR */
@@ -207,6 +208,7 @@ p.sub-header {
   border-radius: 50%;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 
 .logo-two {
@@ -217,6 +219,7 @@ p.sub-header {
   margin-left: 400px;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 
 .logo-three {
@@ -228,6 +231,7 @@ p.sub-header {
   margin-top: -130px;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 .logo-four {
   width: 70px;
@@ -237,6 +241,7 @@ p.sub-header {
   margin-top: 100px;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 .logo-five {
   width: 70px;
@@ -247,6 +252,7 @@ p.sub-header {
   margin-bottom: 50px;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 
 .logo-six {
@@ -257,6 +263,7 @@ p.sub-header {
   margin-top: -25px;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 
 .logo-seven {
@@ -267,6 +274,7 @@ p.sub-header {
   margin-top: -40px;
   padding: 21px;
   background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 
 
@@ -276,4 +284,46 @@ p.sub-header {
 
     padding-top: 125px;
     text-align: center;
+    font-size: 30px;
 }
+
+.four-cards-container {
+    padding-top: 60px;
+    display: flex;
+  
+  
+
+    justify-content: center;
+    gap: 2rem;
+
+}
+
+.card-content {
+
+    width: 300px;
+    height: 425px;
+    border: 1px solid gray;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 10px #ecedef;
+}
+
+
+
+  
+  .card-content:hover {
+    background-color: #f1f3f5;
+  
+  }
+/* 
+  .card-content {
+
+
+  } */
+
+  .card-icons {
+    width: 75px;
+    height: 75px;
+    padding-top: 25px;
+    padding-left: 25px;
+  }
