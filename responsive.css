@@ -1,0 +1,26 @@
+/* TABLET RESPONSIVE */
+
+@media screen and (max-width: 768px) {
+  [aria-controls="buynowDropdown"] {
+    display: block;
+    border: none;
+    background: transparent;
+    font-size: 35px;
+  }
+
+  [aria-controls="false"] ~ ul {
+    display: none;
+  }
+
+  [aria-controls="true"] ~ ul {
+    display: block;
+  }
+
+  .navbar-nav > li > a {
+    display: none;
+  }
+
+  .buy-now {
+    display: none;
+  }
+}

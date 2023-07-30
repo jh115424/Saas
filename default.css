@@ -1,0 +1,87 @@
+:root {
+  --white: #fff;
+  --light-gray: #c7eaef;
+  --gray: #d2d2d2;
+  --black: #000;
+  --lightblue: #000000;
+
+  --font-color-base: #666;
+  --font-color-dark: #212529;
+  --font-color-light: #b0aebe;
+  --font-color-link: #57a6ff;
+
+  --footer: #34314b;
+  --footer-base: #2e2b45;
+  --contrast: rgba(246, 248, 249, 0.8);
+  --success: #64ecf5;
+  --danger: #ff8b8d;
+  --grad-1: #a1ecff;
+  --grad-2: #8293a4;
+  --grad-3: #c7eaef;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  letter-spacing: 0;
+  color: var(--font-color-base);
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.top-nav {
+  position: sticky;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.buy-now,
+.button {
+  background-color: #3b87dd;
+  border: none;
+  color: white;
+  margin-left: 3px;
+  width: 145px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+/* @media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+} */

@@ -1,30 +1,33 @@
-:root {
-  --white: #fff;
-  --light-gray: #c7eaef;
-  --gray: #d2d2d2;
-  --black: #000;
-  --lightblue: #000000;
-
-  --font-color-base: #666;
-  --font-color-dark: #212529;
-  --font-color-light: #b0aebe;
-  --font-color-link: #57a6ff;
-
-  --footer: #34314b;
-  --footer-base: #2e2b45;
-  --contrast: rgba(246, 248, 249, 0.8);
-  --success: #64ecf5;
-  --danger: #ff8b8d;
-  --grad-1: #a1ecff;
-  --grad-2: #8293a4;
-  --grad-3: #c7eaef;
+body {
+  margin: 0;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
+.top-nav {
+  position: fixed;
+  padding: 1rem;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 500;
+  transition: ease-in-out 0.3s;
+}
+
+[aria-controls="buynowDropdown"] {
+  display: none;
+}
+
+.nav-name {
+  width: 150px;
+}
+
+.nav-item a {
+  color: #8293a4;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  font-family: "Hind", sans-serif;
+  text-decoration: none;
+  margin-right: 40px;
 }
 
 /* CODE FOR TOP NAVBAR GRADIENT */
@@ -89,7 +92,7 @@ body {
 
 /* CODE OF TOP NAVBAR */
 
-.top-nav {
+/* .top-nav {
   display: flex;
   justify-content: space-between;
   margin-left: 50px;
@@ -112,10 +115,7 @@ body {
   margin-left: 5px;
 }
 
-ul {
-  display: flex;
-  list-style: none;
-}
+
 
 .top-right-header {
   display: flex;
@@ -164,8 +164,18 @@ ul {
   font-size: 24px;
 }
 
+.trigram {
+    
+        width: 24px;
+        height: 24px;
+        margin: auto;
+        display: none;
+    
+
+} */
+
 /* motto and icons */
-.motto {
+/* .motto {
   width: 50%;
   margin-left: 50px;
   font-size: 32px;
@@ -190,7 +200,7 @@ ul {
   margin-right: 6px;
   margin-left: -3px;
   margin-top: 2px;
-}
+} */
 
 /* h2 {
 
@@ -201,7 +211,7 @@ ul {
     font-weight: lighter;
 } */
 
-p.sub-header {
+/* p.sub-header {
   margin-left: 5px;
   font-size: 26px;
   font-weight: 400;
@@ -211,14 +221,13 @@ p.sub-header {
 .icon-container {
   display: flex;
   /* width: 50%; */
-}
 
-.logo-icons {
+/* .logo-icons {
   position: relative;
 }
 
 .logo-one {
-  width: 45px;
+  width: 90px;
   height: 45px;
   margin-left: 223px;
   border-radius: 50%;
@@ -250,8 +259,8 @@ p.sub-header {
   box-shadow: 5px 5px 5px 5px #c5c6c7;
 }
 .logo-four {
-  width: 70px;
-  height: 70px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin-left: 140px;
   margin-top: 100px;
@@ -272,8 +281,8 @@ p.sub-header {
 }
 
 .logo-six {
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   margin-left: 310px;
   margin-top: -25px;
@@ -291,11 +300,11 @@ p.sub-header {
   padding: 21px;
   background-color: white;
   box-shadow: 5px 5px 5px 5px #c5c6c7;
-}
+}  */
 
 /* SECOND BLOCK */
 
-.benefits {
+/* .benefits {
   padding-top: 125px;
   text-align: center;
   font-size: 30px;
@@ -311,7 +320,7 @@ p.sub-header {
 
 .card-content {
   width: 275px;
-  height: 425px;
+  height: 450px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px #ecedef;
@@ -354,11 +363,11 @@ p.sub-header {
   margin-right: 20px;
   line-height: 1.3;
   color: #8293a4;
-}
+} */
 
 /* THIRD SECTION */
 
-.third-section-container {
+/* .third-section-container {
   width: 100%;
   height: 500px;
   margin-top: 100px;
@@ -370,7 +379,7 @@ p.sub-header {
 .box-sizing {
   display: flex;
   background-color: #f8f9fa;
-  /* width: 100%; */
+  width: 100%;
   padding-top: 300px;
   height: 350px;
   position: absolute;
@@ -390,12 +399,12 @@ p.sub-header {
   position: static;
   height: 500px;
   margin-top: -150px;
-  /* width: 50%; */
-}
+  width: 50%;
+} */
 
 /* fourth section */
 
-.why-front {
+/* .why-front {
   text-align: center;
   position: relative;
   margin-top: 355px;
@@ -438,7 +447,7 @@ h2 {
 .connect h2 {
   width: 80px;
   margin-bottom: 40px;
-  margin-top: 50px;
+  margin-top: 35px;
   font-size: -webkit-xxx-large;
   height: 80px;
   background-color: #ecf2ff;
@@ -485,6 +494,7 @@ h2 {
 
     width: 75%;
     height: 500px;
+    margin-top: 125px;
     margin-left: 200px;
     margin-right: 200px;
-}
+} */

@@ -5,158 +5,231 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="default.css" />
     <title>Saas</title>
 </head>
 
 <body>
 
     <div id="background">
-        <div id="gradient"></div>
-        <div id="solid"></div>
+        <div id="gradient">
+            <div id="solid">
+            </div>
+        </div>
     </div>
-    <div class="top-nav">
-        <img src="/saas-project-assets/project_logo/logo.svg" class="name" />
-        <nav class="top-right-header">
-            <ul>
-                <li class="nav-item"><a>Home</a></li>
-                <li class="nav-item" style="color: #016fb9"><a>Features</a></li>
-                <li class="nav-item"><a>Learn</a></li>
-                <li class="nav-item"><a>Pricing</a></li>
-                <li class="nav-item"><a>Hire us</a></li>
+
+    <nav class="top-nav">
+        <div class="container">
+            <img src="/saas-project-assets/project_logo/logo.svg" class="nav-name" />
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Features</style></a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Learn</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" Home>Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a href="">Hire us</a>
+                </li>
+                <button class="buynow-toggler" aria-expanded="false" aria-controls="buynowDropdown">
+                    <span>&#9776;</span>
+                </button>
+                <button class="buy-now">Buy Now</button>
             </ul>
-            <button class="buy-now">Buy Now</button>
-        </nav>
-    </div>
-    <div class="grand-motto-container">
-        <div class="motto">
-            <h2>Empowering<br />teams with the<br />freedom</h2>
-            <p class="sub-header-small">Own the unlimited power of the web development</p>
-            <div class="play-video">
-                <a href="https://devslopes.com/"><button class="button"><img
-                            src="/saas-project-assets/logo_icons/play.svg" class="play">Play
-                        video</button></a>
-                <p class="learn">Learn more</p>
+        </div>
+    </nav>
+
+    <script>
+        const navButton = document.querySelector('button[aria-expanded]');
+
+        function toggleNav({ target }) {
+
+            const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+            navButton.setAttribute('aria-expanded', !expanded);
+
+        }
+
+        navButton.addEventListener('click', toggleNav);
+    </script>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div id="background">
+            <div id="gradient">
+                <div id="solid">
+                </div>
             </div>
         </div>
-
-        <div class="icon-container">
-            <div class="logo-icons">
-                <div>
-                    <img src="/saas-project-assets/logo_icons/google.png" class="logo-one">
-                </div>
-                <div>
-                    <img src="/saas-project-assets/logo_icons/atlassian.png" class="logo-two">
-                </div>
-                <div>
-                    <img src="/saas-project-assets/logo_icons/asana.png" class="logo-three">
-                </div>
-                <div>
-                    <img src="/saas-project-assets/logo_icons/paypal.jpg" class="logo-four">
-                </div>
-                <div>
-                    <img src="/saas-project-assets/logo_icons/weave.png" class="logo-five">
-                </div>
-                <div>
-                    <img src="/saas-project-assets/logo_icons/google-A.png" class="logo-six">
-                </div>
-                <div>
-                    <img src="/saas-project-assets/logo_icons/calendar.png" class="logo-seven">
-                </div>
-            </div>
+        <div class="top-nav">
+            <img src="/saas-project-assets/project_logo/logo.svg" class="name" />
+            <nav class="top-right-header">
+                <ul>
+                    <li class="nav-item"><a>Home</a></li>
+                    <li class="nav-item" style="color: #016fb9"><a>Features</a></li>
+                    <li class="nav-item"><a>Learn</a></li>
+                    <li class="nav-item"><a>Pricing</a></li>
+                    <li class="nav-item"><a>Hire us</a></li>
+                </ul>
+                <button class="buy-now">Buy Now</button>
+                <img src="/saas-project-assets/abstract/trigram.png" alt="" class="trigram">
+            </nav>
         </div>
-    </div>
-    <div class="benefits">
-        <h2>Key Benefits</h2>
-        <p class="sub-header">Design faster with a growing array of beautiful templates</p>
-    </div>
+         </div> 
 
-    <div class="four-cards-container">
-        <div class="card-content">
-            <img src="/saas-project-assets/icons/responsive.svg" class="card-icons">
-            <h3 class="card-title">Responsive</h3>
-            <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
-            <p class="learn">Learn more</p>
-        </div>
-
-        <div class="card-content">
-            <img src="/saas-project-assets/icons/customizable.svg" class="card-icons">
-            <h3 class="card-title">Customizable</h3>
-            <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
-            <p class="learn">Learn more</p>
-        </div>
-
-        <div class="card-content">
-            <img src="/saas-project-assets/icons/premium.svg" class="card-icons">
-            <h3 class="card-title">Premium<button class="sketch">Sketch</button></h3>
-            <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
-            <p class="learn">Learn more</p>
-        </div>
-
-        <div class="card-content">
-            <img src="/saas-project-assets/icons/documentation.svg" class="card-icons">
-            <h3 class="card-title">Documentation</h3>
-            <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
-                content of a page when looking at its layout.</p>
-            <p class="learn">Learn more</p>
-
-        </div>
-    </div>
-
-    <div class="third-section-container">
-        <div class="box-sizing">
-            <h2 class="perspective-video">Front makes you look at things<br>from a different prospectives
+        <div class="grand-motto-container">
+            <div class="motto">
+                <h2>Empowering<br />teams with the<br />freedom</h2>
+                <p class="sub-header-small">Own the unlimited power of the web development</p>
                 <div class="play-video">
                     <a href="https://devslopes.com/"><button class="button"><img
                                 src="/saas-project-assets/logo_icons/play.svg" class="play">Play
                             video</button></a>
+                    <p class="learn">Learn more</p>
                 </div>
-            </h2>
-            <div><img src="/saas-project-assets/banners/banner_one.jpg" class="banner-one"></div>
-        </div>
-    </div>
-
-    <div class="why-front">
-        <h2>Why front?</h2>
-        <p class="paragraph">Front is an incredibly beautiful, fully responsive, and mobile-first projects on<br>the web
-            - it is the starting point for creative sites</p>
-    </div>
-
-    <div class="connect-list">
-        <div class="connect-wrapper">
-            <div class="connect connect-first">
-                <h2>.</h2>
             </div>
-            <p>Basic elements</p>
-        </div>
-        <div class="connect-wrapper">
-            <div class="connect">
-                <h2>.</h2>
+
+            <div class="icon-container">
+                <div class="logo-icons">
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/google.png" class="logo-one">
+                    </div>
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/atlassian.png" class="logo-two">
+                    </div>
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/asana.png" class="logo-three">
+                    </div>
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/paypal.jpg" class="logo-four">
+                    </div>
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/weave.png" class="logo-five">
+                    </div>
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/google-A.png" class="logo-six">
+                    </div>
+                    <div>
+                        <img src="/saas-project-assets/logo_icons/calendar.png" class="logo-seven">
+                    </div>
+                </div>
             </div>
-            <p>Components</p>
         </div>
-        <div class="connect-wrapper">
-            <div class="connect">
-                <h2>.</h2>
+        <div class="benefits">
+            <h2>Key Benefits</h2>
+            <p class="sub-header">Design faster with a growing array of beautiful templates</p>
+        </div>
+
+        <div class="four-cards-container">
+            <div class="card-content">
+                <img src="/saas-project-assets/icons/responsive.svg" class="card-icons">
+                <h3 class="card-title">Responsive</h3>
+                <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+                <p class="learn">Learn more</p>
             </div>
-            <p>Combined Components</p>
-        </div>
-        <div class="connect-wrapper">
-            <div class="connect connect-last">
-                <h2>.</h2>
+
+            <div class="card-content">
+                <img src="/saas-project-assets/icons/customizable.svg" class="card-icons">
+                <h3 class="card-title">Customizable</h3>
+                <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+                <p class="learn">Learn more</p>
             </div>
-            <p>Page Layouts</p>
+
+            <div class="card-content">
+                <img src="/saas-project-assets/icons/premium.svg" class="card-icons">
+                <h3 class="card-title">Premium<button class="sketch">Sketch</button></h3>
+                <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+                <p class="learn">Learn more</p>
+            </div>
+
+            <div class="card-content">
+                <img src="/saas-project-assets/icons/documentation.svg" class="card-icons">
+                <h3 class="card-title">Documentation</h3>
+                <p class="card-paragraph">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout.</p>
+                <p class="learn">Learn more</p>
+
+            </div>
         </div>
 
-       
-    </div>
+        <div class="third-section-container">
+            <div class="box-sizing">
+                <h2 class="perspective-video">Front makes you look at things<br>from a different prospectives
+                    <div class="play-video">
+                        <a href="https://devslopes.com/"><button class="button"><img
+                                    src="/saas-project-assets/logo_icons/play.svg" class="play">Play
+                                video</button></a>
+                    </div>
+                </h2>
+                <div><img src="/saas-project-assets/banners/banner_one.jpg" class="banner-one"></div>
+            </div>
+        </div>
 
-    <div class="fifth-section">
-        <img src="/saas-project-assets/banners/banner_two.jpg" class="banner-two">
-    </div> 
-   
+        <div class="why-front">
+            <h2>Why front?</h2>
+            <p class="paragraph">Front is an incredibly beautiful, fully responsive, and mobile-first projects on<br>the
+                web
+                - it is the starting point for creative sites</p>
+        </div>
+
+        <div class="connect-list">
+            <div class="connect-wrapper">
+                <div class="connect connect-first">
+                    <h2>.</h2>
+                </div>
+                <p>Basic elements</p>
+            </div>
+            <div class="connect-wrapper">
+                <div class="connect">
+                    <h2>.</h2>
+                </div>
+                <p>Components</p>
+            </div>
+            <div class="connect-wrapper">
+                <div class="connect">
+                    <h2>.</h2>
+                </div>
+                <p>Combined Components</p>
+            </div>
+            <div class="connect-wrapper">
+                <div class="connect connect-last">
+                    <h2>.</h2>
+                </div>
+                <p>Page Layouts</p>
+            </div>
+
+
+        </div>
+
+        <div class="fifth-section">
+            <img src="/saas-project-assets/banners/banner_two.jpg" class="banner-two">
+        </div> -->
 
 
 
@@ -165,7 +238,8 @@
 
 
 
-    <!-- <script>
+
+<!-- <script>
         const nav = document.getElementById("topNav");
         window.onscroll = function () {
             if (window.pageYOffset > 100) {
@@ -187,19 +261,3 @@
 
         navButton.addEventListener('click', toggleNav);
     </script>  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-</html>
