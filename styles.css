@@ -35,7 +35,7 @@ body {
 #background {
   width: 100%;
   max-width: 100%;
-  height: 630px;
+  height: 700px;
   position: absolute;
   display: flex;
   bottom: 430px;
@@ -89,6 +89,108 @@ body {
 ::before {
   box-sizing: border-box;
 }
+
+
+
+
+
+.motto-container {
+    /* display: flex;
+    flex-direction: row;
+    margin-top: 70px; */
+    margin-left:15px;
+    width: 100%;
+  }
+
+  .motto {
+    /* width: 50%;
+    margin-left: 50px; */
+    font-size: 32px;
+    font-family: "Hind", sans-serif;
+    font-family: "Lunasima", sans-serif;
+    color: #000;
+    font-weight: lighter;
+  }
+
+.buy-now,
+.button {
+  background-color: #3b87dd;
+  border: none;
+  color: white;
+  margin-left: 3px;
+  width: 145px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.sub-header-small {
+    font-size: 20px;
+    /* padding-top: -20px; */
+    color: #8293a4;
+    font-weight: 600;
+    /* margin-left: 5px; */
+  }
+
+.play-video {
+    display: flex;
+    /* margin-top: 26px; */
+    font-size: 20px;
+    margin-left: 0px;
+    font-weight: 400;
+    align-items: center;
+  }
+
+  .play {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    /* margin-right: 6px;
+    margin-left: -3px;
+    margin-top: 2px; */
+  } 
+
+  .learn {
+    padding-left: 25px;
+    color: #3b87dd;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+
+ 
+  
+  .icon-container {
+    display: flex;
+    bottom: 400px;
+    float: right;
+    padding-top: 70px;
+    padding-left: 250px;
+    width: 50%;
+    position: relative;
+  }
+   .icons {
+    display: flex;
+    position: relative;
+  }
+
+  .logo, .logo-two{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 19px;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px #c5c6c7;
+    background-color: white;
+  }
+
+   .logo-two {
+    width: 135px;
+    height: 135px;
+    margin-left: 100px;
+
+
+  } 
 
 /* CODE OF TOP NAVBAR */
 

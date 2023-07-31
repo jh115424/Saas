@@ -69,19 +69,18 @@ ul {
   align-items: center;
 }
 
-.buy-now,
-.button {
-  background-color: #3b87dd;
-  border: none;
-  color: white;
-  margin-left: 3px;
-  width: 145px;
-  height: 60px;
-  border-radius: 30px;
+.icon-container {
+
+    
 }
+
+
 
 /* @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
   }
 } */
+
+
+
