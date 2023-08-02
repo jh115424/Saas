@@ -17,7 +17,7 @@ body {
 }
 
 .nav-name {
-  width: 150px;
+  width: 220px;
 }
 
 .nav-item a {
@@ -35,7 +35,7 @@ body {
 #background {
   width: 100%;
   max-width: 100%;
-  height: 700px;
+  height: 900px;
   position: absolute;
   display: flex;
   bottom: 430px;
@@ -62,7 +62,7 @@ body {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background-image: linear-gradient(to right, white, #d2d2d2, #c7eaef);
+  background-image: linear-gradient(to right, white, lightgray, #c7eaef);
 }
 
 #solid {
@@ -81,7 +81,6 @@ body {
   height: 100%;
   border-style: solid;
   border-width: 50rem 100px 0 0;
-
   border-color: transparent var(--light-gray) transparent transparent;
 }
 
@@ -90,108 +89,148 @@ body {
   box-sizing: border-box;
 }
 
-
-
-
-
 .motto-container {
-    /* display: flex;
-    flex-direction: row;
-    margin-top: 70px; */
-    margin-left:15px;
-    width: 100%;
-  }
+  padding-top: 50px;
+  display: flex;
+  margin-left: 25px;
+}
 
-  .motto {
-    /* width: 50%;
-    margin-left: 50px; */
-    font-size: 32px;
-    font-family: "Hind", sans-serif;
-    font-family: "Lunasima", sans-serif;
-    color: #000;
-    font-weight: lighter;
-  }
+.motto {
+  font-size: 32px;
+  font-family: "Hind", sans-serif;
+  font-family: "Lunasima", sans-serif;
+  color: #000;
+  font-weight: lighter;
+}
 
 .buy-now,
 .button {
   background-color: #3b87dd;
   border: none;
   color: white;
-  margin-left: 3px;
+  font-size: 18px;
+  font-weight: 500px;
   width: 145px;
   height: 60px;
   border-radius: 30px;
 }
 
 .sub-header-small {
-    font-size: 20px;
-    /* padding-top: -20px; */
-    color: #8293a4;
-    font-weight: 600;
-    /* margin-left: 5px; */
-  }
+  font-size: 20px;
+  color: #8293a4;
+  font-weight: 600;
+}
 
 .play-video {
-    display: flex;
-    /* margin-top: 26px; */
-    font-size: 20px;
-    margin-left: 0px;
-    font-weight: 400;
-    align-items: center;
-  }
+  display: flex;
 
-  .play {
-    width: 15px;
-    height: 15px;
-    border-radius: 50%;
-    /* margin-right: 6px;
-    margin-left: -3px;
-    margin-top: 2px; */
-  } 
+  font-size: 20px;
+  margin-left: 0px;
+  font-weight: 400;
+  align-items: center;
+}
 
-  .learn {
-    padding-left: 25px;
-    color: #3b87dd;
-    font-weight: 600;
-    font-size: 24px;
-  }
+.play {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-right: 6px;
+  margin-top: 2px;
+}
 
+.learn {
+  padding-left: 25px;
+  color: #3b87dd;
+  font-weight: 600;
+  font-size: 24px;
+}
 
- 
-  
-  .icon-container {
-    display: flex;
-    bottom: 400px;
-    float: right;
-    padding-top: 70px;
-    padding-left: 250px;
-    width: 50%;
-    position: relative;
-  }
-   .icons {
-    display: flex;
-    position: relative;
-  }
+.icon-container {
+  display: flex;
+  float: right;
+  padding-top: 70px;
+  padding-left: 550px;
+  width: 50%;
+  position: relative;
+}
+.icons {
+  display: flex;
+  position: relative;
+}
 
-  .logo, .logo-two{
-    display: flex;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    padding: 19px;
-    background-color: white;
-    box-shadow: 5px 5px 5px 5px #c5c6c7;
-    background-color: white;
-  }
+.logo {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
 
-   .logo-two {
-    width: 135px;
-    height: 135px;
-    margin-left: 100px;
+.logo-two {
+  width: 145px;
+  height: 145px;
+  margin-left: 100px;
+  border-radius: 50%;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
 
+.logo-three {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  margin-left: 186px;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
 
-  } 
+.logo-four {
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  margin-left: -749px;
+  margin-top: 276px;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
 
+.logo-five {
+  width: 135px;
+  height: 135px;
+  margin-left: -325px;
+  margin-top: 276px;
+  border-radius: 50%;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
+
+.logo-six {
+  width: 125px;
+  height: 125px;
+  margin-left: -539px;
+  margin-top: 500px;
+  border-radius: 50%;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
+
+.logo-seven {
+  width: 155px;
+  height: 155px;
+  margin-left: -175px;
+  margin-top: 555px;
+  border-radius: 50%;
+  padding: 27px;
+  background-color: white;
+  box-shadow: 5px 5px 5px 5px #c5c6c7;
+}
 /* CODE OF TOP NAVBAR */
 
 /* .top-nav {
