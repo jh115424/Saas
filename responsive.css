@@ -23,4 +23,347 @@
   .buy-now {
     display: none;
   }
+
+  #background {
+    height: 965px;
+  }
+
+  .motto-container {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .motto {
+    text-align: center;
+  }
+
+  .play-video {
+    justify-content: center;
+    padding-top: 10px;
+  }
+
+  .icon-container {
+    display: flex;
+    margin-top: 300px;
+    padding-top: 200px;
+    justify-content: center;
+  }
+
+  .icons {
+    margin-right: 650px;
+  }
+
+  .logo {
+    margin-top: 5px;
+  }
+
+  .logo-two {
+    margin-top: 30px;
+  }
+
+  .logo-three {
+    margin-left: 150px;
+    margin-top: 75px;
+  }
+
+  .logo-four {
+    margin-left: -610px;
+    margin-top: 180px;
+  }
+
+  .logo-five {
+    margin-left: -250px;
+    margin-top: 208px;
+  }
+
+  .logo-six {
+    margin-left: -450px;
+    margin-top: 380px;
+  }
+
+  .logo-seven {
+    margin-left: -175px;
+    margin-top: 400px;
+  }
+
+  .card-container {
+
+
+  }
+
+  .four-cards-container {
+
+    display: grid;
+    grid-template-columns: auto auto;
+   
+  }
+
+  .card-content {
+
+    width: 345px;
+    height: 330px;
+  }
+
+  .card-title, .card-paragraph {
+    font-size: 18px;
+  }
+
+  .third-section-container {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .box-sizing {
+    display: flex;
+    background-color: #f8f9fa;
+    padding-top: 260px;
+    height: 1100px;
+    position: absolute;
+    margin: 20px;
+    font-size: 24px;
+
+
+  }
+
+  .perspective-video {
+    bottom: 170px;
+    height: 1000px;
+    position: absolute;
+    text-align: center;
+    font-size: 26px;
+    padding: 100px;
+  }
+
+  .banner-one {
+    display: flex;
+    position: static;
+    width: 100%;
+    margin-left: 0%;
+    height: 100%;
+    margin-top: 26px;
+    float: right;
 }
+  }
+
+ 
+
+
+
+
+
+
+
+
+@media screen and (max-width: 360px) {
+    [aria-controls="buynowDropdown"] {
+      display: block;
+      border: none;
+      background: transparent;
+      font-size: 35px;
+    }
+  
+    [aria-controls="false"] ~ ul {
+      display: none;
+    }
+  
+    [aria-controls="true"] ~ ul {
+      display: block;
+    }
+  
+    .navbar-nav > li > a {
+      display: none;
+    }
+
+    #background {
+        height: 810px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-top: 25px;
+    padding-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  
+    .buy-now {
+      display: none;
+    }
+
+
+    .nav-name {
+
+        width: 170px;
+    }
+
+    .motto-container {
+        padding-top: 10px;
+    }
+
+    .motto {
+
+        font-size: 18px;
+    }
+
+    .sub-header-small {
+        font-weight: 400;
+    }
+
+    .icon-container {
+        padding-top: 185px;
+
+    }
+
+    .icons {
+padding-top: 40px;
+
+    }
+
+    .logo {
+
+        margin-left: 349px;
+    height: 75px;
+    width: 75px;
+    }
+
+    .logo-two, .logo-three {
+
+        height: 100px;
+        width: 100px;
+        margin-left: 30px;
+    }
+
+    .logo-two {
+
+        margin-top: 10px;
+    }
+
+    .logo-three {
+        height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-left: 25px;
+
+
+    }
+
+    .logo-four {
+        height: 100px;
+        width: 100px;
+        margin-left: -330px;
+        margin-top: 140px;
+
+
+    }
+
+    .logo-five {
+
+        height: 90px;
+        width: 90px;
+        margin-left: -125px;
+        margin-top: 165px;
+    }
+
+    .logo-six {
+
+    height: 75px;
+    width: 75px;
+    margin-left: -215px;
+    margin-top: 270px;
+
+    }
+
+    .logo-seven {
+
+        height: 100px;
+        width: 100px;
+        padding: 15px;
+        margin-top: 300px;
+        margin-left: -100px;
+
+    }
+
+    .four-cards-container {
+
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+    }
+
+    .benefits-container {
+
+
+    }
+
+    .card-content {
+
+        width: 315px;
+        height: 315px;
+    }
+
+    .card-title {
+        font-size: 18px;
+    }
+
+    .card-paragraph {
+
+        font-size: 18px;
+    }
+
+    .learn {
+        padding-left: 25px;
+        /* color: #3b87dd;
+        font-weight: 600; */
+        font-size: 18px;
+      }
+
+        .third-section-container {
+
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+
+  .box-sizing {
+    display: flex;
+    background-color: #f8f9fa;
+    padding-top: 260px;
+    height: 1100px;
+    position: absolute;
+    margin: 20px;
+    font-size: 24px;
+
+
+  }
+
+
+  .perspective-video {
+    bottom: 170px;
+    height: 1000px;
+    position: absolute;
+    text-align: center;
+    font-size: 26px;
+    padding: 100px;
+  }
+
+  .banner-one {
+    display: flex;
+    position: static;
+    width: 100%;
+    margin-left: 0%;
+    height: 100%;
+    margin-top: 26px;
+    float: right;
+}
+
+
+    }
+
+    
+
