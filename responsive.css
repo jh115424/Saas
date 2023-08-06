@@ -104,7 +104,6 @@
   .third-section-container {
     display: flex;
     justify-content: flex-start;
-    /* flex-direction: column; */
   }
 
   .box-sizing {
@@ -117,7 +116,7 @@
   }
 
   .perspective-video {
-    margin-top: -50px;
+    margin-top: 50px;
     height: 1000px;
     position: absolute;
     text-align: center;
@@ -131,6 +130,18 @@
     margin-bottom: 500px;
     float: right;
   }
+
+  .fifth-section {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  /* SIXTH SECTION */
 }
 
 @media screen and (max-width: 360px) {
@@ -255,11 +266,6 @@
     align-items: center;
   }
 
-  /* .benefits-container {
-
-
-    } */
-
   .card-content {
     width: 315px;
     height: 315px;
@@ -296,8 +302,6 @@
     font-size: 24px;
   }
   .perspective-video {
-    top: 75px;
-
     height: 1000px;
     position: absolute;
     text-align: center;
@@ -314,4 +318,42 @@
     margin-top: 168px;
     float: right;
   }
+
+  /* fourth section */
+  .front {
+    padding-top: 900px;
+  }
+
+  p.sub-header {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .connect-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .connect-wrapper {
+    display: flex;
+    padding-left: 20px;
+  }
+  .connect-wrapper p {
+    font-size: 20px;
+    margin-left: 40px;
+  }
+
+  /* fifth section */
+
+  .fifth-section {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .banner {
+    height: 175px;
+  }
+
+  /* SIXTH SECTION */
 }
