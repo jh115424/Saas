@@ -89,12 +89,9 @@
     margin-top: 400px;
   }
 
-  .benefits-container {
-  }
-
   .four-cards-container {
     display: grid;
-    /* margin-left: -50px; */
+
     grid-template-columns: auto auto;
   }
 
@@ -117,7 +114,8 @@
     flex-direction: column;
     height: 652px;
     background-color: #f8f9fa;
-    width: 645px;
+
+    margin-left: 65px;
     margin: 15px;
     font-size: 24px;
   }
@@ -125,15 +123,15 @@
   .perspective-video {
     margin-top: 50px;
     height: 1000px;
+
     position: absolute;
     text-align: center;
     font-size: 26px;
   }
 
   .video-intro {
-    /* width: 75%; */
     margin-top: 0px;
-    margin-right: 100px;
+    margin-left: 58px;
   }
 
   .play-video {
@@ -142,9 +140,14 @@
     padding-top: 10px;
   }
 
+  .button {
+    margin-left: 75px;
+
+  }
+
   .banner-one {
     width: 100%;
-    margin-left: 0%;
+    margin-left: -15px;
     margin-top: 250px;
     margin-bottom: 500px;
     float: right;
@@ -158,10 +161,7 @@
 
   .banner {
     height: 300px;
-    width: 550px;
-  }
-
-  .connect-list {
+    width: 650px;
   }
 
   /* SIXTH SECTION */
@@ -173,7 +173,7 @@
   }
 
   .hub-logo {
-    margin-left: 270px;
+    margin-left: 253px;
   }
 
   .hub-dots {
@@ -203,60 +203,19 @@
     text-align: center;
   }
 
-  /* .sixth-section {
-    margin-left: 100px;
-  }
+  /* EIGHT SECTION */
 
- .hub {
-
-    margin-right: 300px;
- }
-
-  .director-statement-container {
+  .worlds-best-container {
+    padding-top: 25px;
     text-align: center;
-    margin-top: 0px;
-    font-size: 14px;
-    margin-left: 100px;
   }
 
-  .director-name {
+  .intro {
     font-size: 24px;
-    margin-right: 350px;
-
   }
-
-  .woman-blazer {
-    width: 450px;
+  .list {
+    width: 100px;
   }
-    
-  
-
-  .perspective-paragraph {
-    width: 50%;
-text-align: center;
-
-  
-  }
-
-  .total {
-    margin-right: 265px;
-
-   
-  }
-
-  .logo-container {
-
-    margin-top: 0px;
-  }
-
-
-  .statement {
-    margin-top: 500px;
-    margin-left: 0px;
-    width: 100%;
-    text-align: center;
-
-  }   */
 
   /* SIXTH SECTION */
 
@@ -316,11 +275,12 @@ text-align: center;
     }
 
     .icon-container {
-      padding-top: 185px;
+      padding-top: 263px;
     }
 
     .icons {
-      padding-top: 40px;
+      padding-top: 70px;
+      margin-left: -40px;
     }
 
     .logo {
@@ -344,13 +304,13 @@ text-align: center;
       height: 100px;
       width: 100px;
       margin-top: 5px;
-      margin-left: 25px;
+      margin-left: 10px;
     }
 
     .logo-four {
       height: 100px;
       width: 100px;
-      margin-left: -330px;
+      margin-left: -300px;
       margin-top: 140px;
     }
 
@@ -376,10 +336,12 @@ text-align: center;
       margin-left: -100px;
     }
 
-    .box-sizing {
+    .play-video {
+      margin-right: 0px;
     }
 
-    .card-container {
+    .button {
+      margin-right: 25px;
     }
 
     .four-cards-container {
@@ -390,24 +352,18 @@ text-align: center;
     }
 
     .benefits-container {
-      margin-left: 30px;
-    }
-
-    .banner-one {
+      margin-left: 0px;
     }
 
     .card-content {
-      width: 410px;
+      width: 336px;
       height: 315px;
     }
 
-    .card-title {
+    .card-title, .card-paragraph {
       font-size: 18px;
     }
 
-    .card-paragraph {
-      font-size: 18px;
-    }
 
     .learn {
       padding-left: 25px;
@@ -423,9 +379,7 @@ text-align: center;
     .box-sizing {
       display: flex;
       background-color: #f8f9fa;
-
       height: 835px;
-
       width: 90%;
       position: absolute;
       margin: 20px;
@@ -434,14 +388,14 @@ text-align: center;
     .perspective-video {
       height: 1000px;
       position: absolute;
-      margin-top: 10px;
+      padding: 0px;
       text-align: center;
       font-size: 26px;
     }
 
     .video-intro {
-      width: 75%;
-      margin-left: 30px;
+      width: 100%;
+      margin-right: 18px;
     }
 
     .banner-one {
@@ -453,6 +407,10 @@ text-align: center;
       height: 100%;
       margin-top: 168px;
       float: right;
+    }
+
+    .hub-section-container {
+      margin-top: -90px;
     }
 
     .director-statement-container {
@@ -467,15 +425,18 @@ text-align: center;
       align-items: center;
     }
 
+    .perspective-paragraph {
+      margin-left: -26px;
+    }
+
     /* fourth section */
     .front {
       padding-top: 900px;
     }
 
-    .sub-header {
-      font-size: 14px;
-      padding-left: 5px;
-      padding-right: 5px;
+    p.sub-header {
+      font-size: 23px;
+      margin-left: 10px;
     }
 
     .connect-list {
@@ -489,7 +450,7 @@ text-align: center;
     }
     .connect-wrapper p {
       font-size: 20px;
-      margin-left: 40px;
+      margin-left: 20px;
     }
 
     /* fifth section */
@@ -501,53 +462,60 @@ text-align: center;
 
     .banner {
       height: 175px;
-      width: 400px;
+      width: 320px;
     }
 
     /* SIXTH SECTION */
 
     .woman-arms-folded {
-      width: 350px;
-      height: 450px;
-      margin-left: 125px;
+      width: 275px;
+      height: 400px;
+      margin-top: -25px;
+      margin-left: 30px;
     }
 
     .hub-dots {
-      margin-top: -20px;
+      margin-top: -70px;
+    }
+
+    .dots {
+      margin-right: 235px;
+      width: 200px;
     }
 
     .hub-logo {
-      margin-left: 60px;
+      margin-left: 25px;
     }
 
-    /* .sixth-section {
-margin-left: -10px;
+    .position-title {
+      margin-left: -55px;
+    }
 
-  }
+    /* EIGHT SECTION */
 
-  .director-statement-container {
-    padding-left: 20px;
-    padding-right: 20px;
+    .company-list {
+      display: flex;
+      line-height: 5;
+      flex-direction: column;
+      justify-content: space-around;
+    }
 
+    .worlds-best-container {
 
-  }
+  
+      padding-top: 25px;
+      text-align: center;
+ }
 
-  .dots-screen {
-    margin-left: -100px;
-}
+ .intro {
 
-.woman-blazer {
-
-    height: 400px;
-    width: 275px;
-}
-
-.statement {
-
-    font-size: 10px;
-    text-align: center;
+  font-size: 20px;
  
-}
-} */
   }
+
+  .price {
+
+    padding-top: 20px;
+  }
+}
 }
