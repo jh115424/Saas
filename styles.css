@@ -46,13 +46,15 @@ body {
 }
 
 .buy-now,
-.button {
+.button,
+.button-two,
+.button-tablet {
   background-color: #3b87dd;
   border: none;
   color: white;
   font-size: 18px;
   font-weight: 500px;
-  width: 145px;
+  width: 175px;
   height: 60px;
   border-radius: 30px;
 }
@@ -477,9 +479,9 @@ h1 {
 }
 
 .price-card-container {
+  justify-content: center;
   padding-top: 60px;
   padding-bottom: 20px;
-  margin-left: 50px;
   display: flex;
   width: 100%;
   gap: 2rem;
@@ -502,6 +504,136 @@ h1 {
 }
 
 .line {
-  border-left: 6px solid green;
   width: 320px;
+}
+
+.card-credit,
+.play-video,
+.card-text {
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+.price-grid-container {
+  display: grid;
+  gap: 40px;
+  width: 550px;
+  grid-template-columns: 2fr 2fr;
+  padding: 10px;
+}
+
+.card-testimonial {
+  padding: 10px;
+  font-size: 30px;
+  height: 246px;
+  text-align: center;
+}
+
+.card-grid {
+  width: 50px;
+  height: 50px;
+  margin-right: 140px;
+}
+
+.card-header {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: justify;
+}
+
+.fact {
+  color: #666;
+  text-align: justify;
+  font-size: 16px;
+}
+.card-header-sketch {
+  display: flex;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sketch-two {
+  background-color: #37a37f;
+  border: none;
+  font-size: 16px;
+  color: white;
+  width: 90px;
+  height: 35px;
+  border-radius: 30px;
+}
+
+/* section nine */
+
+.box-sizing-two {
+  display: flex;
+  justify-content: center;
+  height: 900px;
+  width: 100%;
+  background-color: #04294e;
+  margin-left: 65px;
+  margin: 15px;
+  font-size: 24px;
+}
+
+.contact-form,
+.quote,
+.client-name h2 {
+  color: white;
+  margin-top: 10px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.quote {
+  font-style: italic;
+}
+
+.client-name {
+  font-size: 24px;
+  line-height: 2.8px;
+  padding-top: 60px;
+}
+
+.hire-us-line {
+  width: 320px;
+  float: left;
+  margin-right: 200px;
+}
+
+.hire-us-motto,
+.client-title {
+  color: #666;
+}
+
+.hire-us-people {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.woman-one,
+.woman-two,
+.man-one {
+  display: flex;
+
+  border-radius: 100%;
+  height: 50px;
+  width: 50px;
+}
+
+.man-one {
+  height: 75px;
+  width: 75px;
+}
+
+.form-box {
+  display: flex;
+  margin-top: 60px;
+  background-color: white;
+  height: 750px;
+  width: 600px;
 }

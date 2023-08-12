@@ -127,7 +127,7 @@
             <h2 class="perspective-video">
                 <p class="video-intro">Front makes you look at things from a different prospectives</p>
                 <div class="play-video">
-                    <a href="https://devslopes.com/"><button class="button"><img
+                    <a href="https://devslopes.com/"><button class="button-tablet"><img
                                 src="/saas-project-assets/logo_icons/play.svg" class="play">Play
                             video</button></a>
                 </div>
@@ -217,6 +217,8 @@
                 <img src="/saas-project-assets/company_logos/slack.svg" class="list">
             </div>
         </div>
+
+
         <div class="price">
             <h1>Pricing</h1>
             <p>No additional costs. Pay for what you use.</p>
@@ -227,31 +229,95 @@
         <div class="price-content">
             <h2 class="card-price">59 / mo</h2>
             <hr class="line">
+            <p class="card-text">Start your Front business now. 100%<br>guaranteed money back.<br>No questions asked.
+            </p>
+
+            <div class="play-video">
+                <a href="https://youtu.be/O62kAvoO9lM"><button class="button-two"><img
+                            src="/saas-project-assets/logo_icons/play.svg" class="play">Play
+                        video</button></a>
+            </div>
+            <p class="card-credit">No credit card required.</p>
+        </div>
+        <div class="price-grid-container">
+            <div class="card-testimonial">
+                <img src="/saas-project-assets/icons/components.svg" class="card-grid">
+                <p class="card-header">Hundreds of components</p>
+                <p class="fact">Achieve maximum productivity with minimum effort with Front and create robust Limitless
+                    products</p>
+            </div>
+            <div class="card-testimonial">
+                <img src="/saas-project-assets/icons/images.svg" class="card-grid">
+                <p class="card-header">Images included</p>
+                <p class="fact">Images included. We made custom license for all other premium images in the front.</p>
+            </div>
+            <div class="card-testimonial">
+                <img src="/saas-project-assets/icons/cancel.svg" class="card-grid">
+                <p class="card-header-sketch">Cancel anytime<button class="sketch-two">Sketch</button></p>
+                <p class="fact">If it is not for you, just cancel, no hidden costs or fees.</p>
+
+            </div>
+            <div class="card-testimonial">
+                <img src="/saas-project-assets/icons/moneyback.svg" class="card-grid">
+                <p class="card-header">Money back</p>
+                <p class="fact">100% money back guaranteed. No questions asked.</p>
+
+            </div>
+        </div>
 
 
+
+
+
+
+
+
+        <script>
+            const navButton = document.querySelector('button[aria-expanded]');
+
+            function toggleNav({ target }) {
+
+                const expanded = target.getAttribute('aria-expanded') === 'true' || false;
+                navButton.setAttribute('aria-expanded', !expanded);
+
+            }
+
+            navButton.addEventListener('click', toggleNav);
+        </script>
+    </div>
+
+    <div class="box-sizing-two">
+        <div class="contact-form">
+            <div class="form-container">
+                <h2>Hire Us</h2>
+                <p class="hire-us-motto">Whatever your goal-<br>we will get you there</p>
+
+                <hr class="hire-us-line">
+
+                <p class="quote">"I love front! I love the ease of use, I love the<br>fact that I have total creative
+                    freedom..."</p>
+
+                <h2 class="client-name">Charlotte Moore</h2>
+                <p class="client-title">Head of Commercials, Slack</p>
+
+                <div class="hire-us-people">
+                    <img src="/saas-project-assets/people/woman_two.jpg" class="woman-two">
+                    <img src="/saas-project-assets/people/woman_one.jpg" class="woman-one">
+                    <img src="/saas-project-assets/people/man_one.jpg" class="man-one">
+                </div>
+            </div>
+        </div>
+
+        <div class="form-box">
 
 
 
         </div>
-    </div>
 
 
 
 
 
-
-    <script>
-        const navButton = document.querySelector('button[aria-expanded]');
-
-        function toggleNav({ target }) {
-
-            const expanded = target.getAttribute('aria-expanded') === 'true' || false;
-            navButton.setAttribute('aria-expanded', !expanded);
-
-        }
-
-        navButton.addEventListener('click', toggleNav);
-    </script>
 
 
 </body>

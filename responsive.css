@@ -20,8 +20,7 @@
     display: none;
   }
 
-  .top-nav {
-  }
+
 
   .buy-now {
     display: none;
@@ -40,10 +39,10 @@
     text-align: center;
   }
 
-  .play-video {
+  /* .play-video {
     justify-content: center;
     padding-top: 10px;
-  }
+  } */
 
   .icon-container {
     display: flex;
@@ -131,17 +130,17 @@
 
   .video-intro {
     margin-top: 0px;
-    margin-left: 58px;
+    margin-left: 100px;
   }
 
   .play-video {
-    margin-right: 120px;
+    margin-right: 10px;
     justify-content: center;
     padding-top: 10px;
   }
 
-  .button {
-    margin-left: 75px;
+  .button-tablet {
+    margin-left: -15px;
 
   }
 
@@ -216,6 +215,58 @@
   .list {
     width: 100px;
   }
+
+  .price-card-container {
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+  }
+
+  .price-content {
+    width: 750px;
+  }
+
+  .card-price {
+
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .card-text {
+    font-size: 18px;
+    text-align: center;
+  }
+  .line {
+    width: 620px;
+  }
+
+  .card-credit{
+    text-align: center;
+    font-size: 18px;
+
+
+   
+  }
+  
+ 
+  .card-header {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: justify;
+  }
+
+  .price-grid-container {
+    display: grid;
+    gap: 40px;
+  margin-top: 45px;
+    margin-left: 142px;
+  
+  }
+  
 
   /* SIXTH SECTION */
 
@@ -337,11 +388,15 @@
     }
 
     .play-video {
-      margin-right: 0px;
+    
+      align-items: center;
+    
+      display: flex;
+      flex-direction: column;
     }
 
-    .button {
-      margin-right: 25px;
+    .button-two {
+      margin-left: -29px;
     }
 
     .four-cards-container {
@@ -366,7 +421,7 @@
 
 
     .learn {
-      padding-left: 25px;
+     padding-right: 47px;
       font-size: 18px;
     }
 
@@ -395,7 +450,8 @@
 
     .video-intro {
       width: 100%;
-      margin-right: 18px;
+      font-size: 24px;
+    margin-left: 7px;
     }
 
     .banner-one {
@@ -463,6 +519,7 @@
     .banner {
       height: 175px;
       width: 320px;
+      margin-left: 10px;
     }
 
     /* SIXTH SECTION */
@@ -513,9 +570,57 @@
  
   }
 
+
   .price {
 
     padding-top: 20px;
   }
-}
+
+  .card-testimonial {
+
+ 
+    padding: 10px;
+    font-size: 30px;
+    width: 300px;
+    height: 281px;
+    text-align: center;
+  }
+
+  .price-content {
+
+    width: 331px;
+    height: 492px;
+    margin-left: 10px;
+  }
+
+  .card-text {
+
+    width: 100%;
+    margin-left: -2px;
+  }
+  .line {
+    width: 300px;
+  }
+
+  .button-two {
+
+    margin-left: -28px;
+  }
+
+  .card-credit {
+
+   margin-left: 0px;
+  }
+
+  .price-grid-container {
+    display: flex;
+    flex-direction: column;
+  
+    margin-left: 20px;
+    width: 350px;
+    padding: 10px;
+  }
+
+  
+  }
 }
