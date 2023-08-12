@@ -637,3 +637,30 @@ h1 {
   height: 750px;
   width: 600px;
 }
+
+.form-text {
+  color: black;
+  text-align: justify;
+  font-weight: 400;
+  font-size: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.input-container {
+
+  display: flex;
+ 
+  margin-top: 25px;
+}
+
+.first-name, .last-name {
+
+  height: 50px;
+    width: 250px;
+    border: #c7c0c0ab 1px solid;
+    border-radius: 5px;
+  
+}
+
