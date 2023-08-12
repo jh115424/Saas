@@ -632,6 +632,7 @@ h1 {
 
 .form-box {
   display: flex;
+  border-radius: 5px;
   margin-top: 60px;
   background-color: white;
   height: 750px;
@@ -640,6 +641,7 @@ h1 {
 
 .form-title {
   color: black;
+  margin-top: 10px;
   text-align: justify;
   font-weight: 400;
   font-size: 12px;
@@ -649,6 +651,7 @@ h1 {
 
 .form-text {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -658,9 +661,40 @@ h1 {
 }
 
 .first-name,
-.last-name {
+.last-name,
+.budget,
+.country {
   height: 50px;
   width: 250px;
   border: #c7c0c0ab 1px solid;
   border-radius: 5px;
+}
+
+.drop-down {
+  display: flex;
+  gap: 30px;
+  margin-top: 25px;
+  justify-content: space-around;
+}
+
+.input-container-interview-box {
+  display: flex;
+  margin-top: 25px;
+}
+.interview {
+  width: 528px;
+  font-size: 18px;
+  margin-top: 25px;
+  height: 150px;
+  border-radius: 5px;
+  border: #c7c0c0ab 1px solid;
+}
+
+.interview > placeholder {
+  font-size: 28px;
+  padding: 0 0.2em;
+  position: absolute;
+  top: -0.5em;
+  left: 1em;
+  background-color: white;
 }
