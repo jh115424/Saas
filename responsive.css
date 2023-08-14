@@ -267,6 +267,85 @@
   
   }
   
+  /* NINTH SECTION */
+
+ .box-sizing-two {
+
+  display: flex;
+  flex-direction: column;
+  height: 1200px;
+ }
+
+ .contact-form {
+margin-left: 200px;
+ }
+
+ .form-box {
+
+  display: flex;
+  flex-direction: column;
+  /* margin-top: 500px; */
+  margin-left: 65px;
+ }
+
+ .form-container {
+  flex-direction: column;
+  margin-top: 1px;
+  /* margin-left: 600px; */
+ }
+
+ .privacy-policy {
+display: contents;
+font-size: 18px;
+
+ }
+
+ .hire-container {
+
+margin-left: -180px;
+
+ }
+
+ .hire-us-motto {
+
+  font-size: 20px;
+ }
+
+ .client-title {
+  font-size: 18px;
+ }
+
+ .people-container {
+
+
+ margin-left: 246px;
+  margin-top: -277px;
+ }
+
+ .dots {
+  margin-right: 0px;
+ }
+
+ .quote {
+
+  font-size: 18px;
+  margin-top: 75px;
+ }
+
+
+
+ .button-three {
+margin-top: 20px;
+
+ }
+
+
+
+
+
+
+
+
 
   /* SIXTH SECTION */
 
@@ -621,6 +700,29 @@
     padding: 10px;
   }
 
+
+  .hire-container {
+   margin-right: 32px;
+    margin-top: 125px;
+  
+  }
+
+  .client-title {
+
+    margin-left: -20px;
+  }
+
+  .hire-us-people {
+margin-left: -40px;
+  }
+
+  .people-container {
+
+    display: flex;
+    flex-direction: column;
+margin-left: -137px;
+margin-top: 10px;
+  }
   
   }
 }
