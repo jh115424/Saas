@@ -716,6 +716,11 @@ margin-top: 20px;
 margin-left: -40px;
   }
 
+  .box-sizing-two {
+height: 2000px;
+
+  }
+
   .people-container {
 
     display: flex;
@@ -723,6 +728,56 @@ margin-left: -40px;
 margin-left: -137px;
 margin-top: 10px;
   }
+
+  .form-box {
+
+    margin-left: 10px;
+    margin-bottom: 600px;
+    width: 310px;
+    height: 1500px;
+
+  }
+
+  .form-text {
+display: flex;
+flex-direction: column;
+
+  }
+
+  .drop-down {
+
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+.interview {
+
+  width: 250px;
+}
+
+.privacy-policy {
+
+ display: flex;
+ flex-direction: column;
+
+ width: 100%
+}
+
+.form-title {
+
+
+}
+
+.policy {
+
+  word-wrap: break-word;
+}
+
+  /* .input-container {
+    display: flex;
+    flex-direction: column;
+  } */
   
   }
 }
