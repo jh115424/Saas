@@ -324,6 +324,7 @@ margin-left: -180px;
 
  .dots {
   margin-right: 0px;
+
  }
 
  .quote {
@@ -336,6 +337,7 @@ margin-left: -180px;
 
  .button-three {
 margin-top: 20px;
+/* margin-right: 200px; */
 
  }
 
@@ -702,9 +704,9 @@ margin-top: 20px;
 
 
   .hire-container {
-   margin-right: 32px;
-    margin-top: 125px;
-  
+    margin-right: 32px;
+    margin-top: 550px;
+    text-align: center;
   }
 
   .client-title {
@@ -717,7 +719,8 @@ margin-left: -40px;
   }
 
   .box-sizing-two {
-height: 2000px;
+height: 1735px;
+margin-top: -20px;
 
   }
 
@@ -769,9 +772,31 @@ flex-direction: column;
 
 }
 
-.policy {
+.dots {
 
-  word-wrap: break-word;
+  display: contents;
+  width: 200px;
+}
+
+p.dots {
+
+  display: none;
+}
+
+.button-three{
+margin-left: 50px;
+margin-bottom: 40px;
+
+}
+
+.policy {
+display: flex;
+  width: 100%;
+}
+
+.policy-link {
+
+
 }
 
   /* .input-container {
