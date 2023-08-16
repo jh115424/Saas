@@ -20,7 +20,7 @@
     display: none;
   }
 
-
+  
 
   .buy-now {
     display: none;
@@ -39,10 +39,6 @@
     text-align: center;
   }
 
-  /* .play-video {
-    justify-content: center;
-    padding-top: 10px;
-  } */
 
   .icon-container {
     display: flex;
@@ -335,9 +331,10 @@ margin-left: -180px;
 
 
 
+
  .button-three {
 margin-top: 20px;
-/* margin-right: 200px; */
+
 
  }
 
@@ -767,10 +764,6 @@ flex-direction: column;
  width: 100%
 }
 
-.form-title {
-
-
-}
 
 .dots {
 
@@ -784,7 +777,7 @@ p.dots {
 }
 
 .button-three{
-margin-left: 50px;
+
 margin-bottom: 40px;
 
 }
@@ -794,15 +787,12 @@ display: flex;
   width: 100%;
 }
 
-.policy-link {
 
 
-}
 
-  /* .input-container {
-    display: flex;
-    flex-direction: column;
-  } */
+/* last part */
+
+
   
   }
 }
