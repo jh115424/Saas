@@ -20,8 +20,6 @@
     display: none;
   }
 
-  
-
   .buy-now {
     display: none;
   }
@@ -38,7 +36,6 @@
   .motto {
     text-align: center;
   }
-
 
   .icon-container {
     display: flex;
@@ -84,7 +81,8 @@
     margin-top: 400px;
   }
 
-  .four-cards-container {
+  .four-cards-container,
+  .footer-section-two {
     display: grid;
 
     grid-template-columns: auto auto;
@@ -137,7 +135,6 @@
 
   .button-tablet {
     margin-left: -15px;
-
   }
 
   .banner-one {
@@ -227,7 +224,6 @@
   }
 
   .card-price {
-
     text-align: center;
     font-weight: 400;
   }
@@ -240,15 +236,11 @@
     width: 620px;
   }
 
-  .card-credit{
+  .card-credit {
     text-align: center;
     font-size: 18px;
-
-
-   
   }
-  
- 
+
   .card-header {
     font-size: 16px;
     font-weight: bold;
@@ -258,93 +250,148 @@
   .price-grid-container {
     display: grid;
     gap: 40px;
-  margin-top: 45px;
+    margin-top: 45px;
     margin-left: 142px;
-  
   }
-  
+
   /* NINTH SECTION */
 
- .box-sizing-two {
+  .box-sizing-two {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+  }
 
-  display: flex;
-  flex-direction: column;
-  height: 1200px;
- }
+  .contact-form {
+    margin-left: 200px;
+  }
 
- .contact-form {
-margin-left: 200px;
- }
+  .form-box {
+    display: flex;
+    flex-direction: column;
 
- .form-box {
+    margin-left: 65px;
+  }
 
-  display: flex;
-  flex-direction: column;
-  /* margin-top: 500px; */
-  margin-left: 65px;
- }
+  .form-container {
+    flex-direction: column;
+    margin-top: 1px;
+  }
 
- .form-container {
-  flex-direction: column;
-  margin-top: 1px;
-  /* margin-left: 600px; */
- }
+  .privacy-policy {
+    display: contents;
+    font-size: 18px;
+  }
 
- .privacy-policy {
-display: contents;
-font-size: 18px;
+  .hire-container {
+    margin-left: -180px;
+    font-size: 20px;
+  }
 
- }
+  .hire-us-line {
+    width: 385px;
 
- .hire-container {
+    margin-right: 400px;
+  }
 
-margin-left: -180px;
+  .hire-us-motto {
+    font-size: 20px;
+  }
 
- }
+  .client-title {
+    font-size: 18px;
+  }
 
- .hire-us-motto {
+  .people-container {
+    margin-left: 246px;
+    margin-top: -277px;
+  }
 
-  font-size: 20px;
- }
+  .dots {
+    margin-right: 0px;
+  }
 
- .client-title {
-  font-size: 18px;
- }
+  .quote {
+    font-size: 18px;
+    margin-top: 75px;
+  }
 
- .people-container {
+  .button-three {
+    margin-top: 20px;
+  }
 
+  /* FOOTER CONTAINER */
 
- margin-left: 246px;
-  margin-top: -277px;
- }
+  .footer-info-container-two {
+    font-size: 20px;
+    display: flex;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 
- .dots {
-  margin-right: 0px;
+  .address {
+    font-size: 18px;
+  }
 
- }
+  img.location-arrow {
+    width: 50px;
+    margin-left: -11px;
+  }
 
- .quote {
+  .location-arrow,
+  .telephone {
+    width: 25px;
+  }
 
-  font-size: 18px;
-  margin-top: 75px;
- }
+  .footer-section-two {
+    display: grid;
+    column-gap: 40px;
+    row-gap: 50px;
+  }
 
+  .company-info,
+  .options,
+  .footer-info {
+    font-size: 18px;
+  }
 
+  .sketch-two {
+    width: 100px;
+    margin-left: 10px;
+  }
 
+  .facebook,
+  .google,
+  .twitter,
+  .github {
+    width: 30px;
+    height: 30px;
+  }
 
- .button-three {
-margin-top: 20px;
+  .site-location {
+    height: 30px;
+    width: 185px;
+  }
 
+  .media-container {
+    gap: 10px;
+  }
 
- }
+  .legal-paragraph {
+    width: 100%;
+    margin-left: 0px;
+    font-size: 15px;
+    font-weight: 500;
+  }
 
-
-
-
-
-
-
-
+  .legal-stuff {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 45px;
+    font-size: 18px;
+  }
 
   /* SIXTH SECTION */
 
@@ -466,9 +513,8 @@ margin-top: 20px;
     }
 
     .play-video {
-    
       align-items: center;
-    
+
       display: flex;
       flex-direction: column;
     }
@@ -481,7 +527,6 @@ margin-top: 20px;
       display: flex;
       flex-direction: column;
       margin-left: 10px;
-      /* align-items: center; */
     }
 
     .benefits-container {
@@ -493,13 +538,13 @@ margin-top: 20px;
       height: 315px;
     }
 
-    .card-title, .card-paragraph {
+    .card-title,
+    .card-paragraph {
       font-size: 18px;
     }
 
-
     .learn {
-     padding-right: 47px;
+      padding-right: 47px;
       font-size: 18px;
     }
 
@@ -529,7 +574,7 @@ margin-top: 20px;
     .video-intro {
       width: 100%;
       font-size: 24px;
-    margin-left: 7px;
+      margin-left: 7px;
     }
 
     .banner-one {
@@ -636,163 +681,130 @@ margin-top: 20px;
     }
 
     .worlds-best-container {
-
-  
       padding-top: 25px;
       text-align: center;
- }
+    }
 
- .intro {
+    .intro {
+      font-size: 20px;
+    }
 
-  font-size: 20px;
- 
-  }
+    .price {
+      padding-top: 20px;
+    }
 
+    .card-testimonial {
+      padding: 10px;
+      font-size: 30px;
+      width: 300px;
+      height: 281px;
+      text-align: center;
+    }
 
-  .price {
+    .price-content {
+      width: 331px;
+      height: 492px;
+      margin-left: 10px;
+    }
 
-    padding-top: 20px;
-  }
+    .card-text {
+      width: 100%;
+      margin-left: -2px;
+    }
+    .line {
+      width: 300px;
+    }
 
-  .card-testimonial {
+    .button-two {
+      margin-left: -28px;
+    }
 
- 
-    padding: 10px;
-    font-size: 30px;
-    width: 300px;
-    height: 281px;
-    text-align: center;
-  }
+    .card-credit {
+      margin-left: 0px;
+    }
 
-  .price-content {
+    .price-grid-container {
+      display: flex;
+      flex-direction: column;
 
-    width: 331px;
-    height: 492px;
-    margin-left: 10px;
-  }
+      margin-left: 20px;
+      width: 350px;
+      padding: 10px;
+    }
 
-  .card-text {
+    .hire-container {
+      margin-right: 32px;
+      margin-top: 550px;
+      text-align: center;
+    }
 
-    width: 100%;
-    margin-left: -2px;
-  }
-  .line {
-    width: 300px;
-  }
+    .client-title {
+      margin-left: -20px;
+    }
 
-  .button-two {
+    .hire-us-people {
+      margin-left: -40px;
+    }
 
-    margin-left: -28px;
-  }
+    .box-sizing-two {
+      height: 1735px;
+      margin-top: -20px;
+    }
 
-  .card-credit {
+    .people-container {
+      display: flex;
+      flex-direction: column;
+      margin-left: -137px;
+      margin-top: 10px;
+    }
 
-   margin-left: 0px;
-  }
+    .form-box {
+      margin-left: 10px;
+      margin-bottom: 600px;
+      width: 310px;
+      height: 1500px;
+    }
 
-  .price-grid-container {
-    display: flex;
-    flex-direction: column;
-  
-    margin-left: 20px;
-    width: 350px;
-    padding: 10px;
-  }
+    .form-text {
+      display: flex;
+      flex-direction: column;
+    }
 
+    .drop-down {
+      display: flex;
+      flex-direction: column;
+      gap: 25px;
+    }
 
-  .hire-container {
-    margin-right: 32px;
-    margin-top: 550px;
-    text-align: center;
-  }
+    .interview {
+      width: 250px;
+    }
 
-  .client-title {
+    .privacy-policy {
+      display: flex;
+      flex-direction: column;
 
-    margin-left: -20px;
-  }
+      width: 100%;
+    }
 
-  .hire-us-people {
-margin-left: -40px;
-  }
+    .dots {
+      display: contents;
+      width: 200px;
+    }
 
-  .box-sizing-two {
-height: 1735px;
-margin-top: -20px;
+    p.dots {
+      display: none;
+    }
 
-  }
+    .button-three {
+      margin-bottom: 40px;
+    }
 
-  .people-container {
+    .policy {
+      display: flex;
+      width: 100%;
+    }
 
-    display: flex;
-    flex-direction: column;
-margin-left: -137px;
-margin-top: 10px;
-  }
-
-  .form-box {
-
-    margin-left: 10px;
-    margin-bottom: 600px;
-    width: 310px;
-    height: 1500px;
-
-  }
-
-  .form-text {
-display: flex;
-flex-direction: column;
-
-  }
-
-  .drop-down {
-
-    display: flex;
-    flex-direction: column;
-    gap: 25px;
-  }
-
-.interview {
-
-  width: 250px;
-}
-
-.privacy-policy {
-
- display: flex;
- flex-direction: column;
-
- width: 100%
-}
-
-
-.dots {
-
-  display: contents;
-  width: 200px;
-}
-
-p.dots {
-
-  display: none;
-}
-
-.button-three{
-
-margin-bottom: 40px;
-
-}
-
-.policy {
-display: flex;
-  width: 100%;
-}
-
-
-
-
-/* last part */
-
-
-  
+    /* last part */
   }
 }
