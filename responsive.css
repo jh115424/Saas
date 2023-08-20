@@ -24,10 +24,194 @@
     display: none;
   }
 
-  /* #background {
-    height: 965px;
-  } */
+ 
+.motto-container {
 
+  text-align: center;
+}
+
+.play-video-buttons-container {
+/* 
+  margin-left: 150px; */
+}
+
+.play-video-button {
+
+  margin-left: 165px;
+}
+
+.icon-container {
+  
+  top: 100px;
+  justify-content: center;
+}
+
+.icons {
+  margin-left: 50px;
+}
+
+.logo-four {
+
+  margin-right: 300px;
+  margin-top: 200px;
+}
+
+.logo-five {
+
+  margin-top: 220px;
+}
+
+.logo-six {
+
+margin-right: 300px;
+}
+
+.logo-seven {
+
+  margin-bottom: 200px;
+}
+
+.box-sizing {
+
+  display: flex;
+  flex-direction: column;
+width: 700px;
+
+}
+
+.card-container {
+
+
+}
+
+.four-cards-container{
+
+  display: flex;
+  flex-direction: column;
+}
+
+.four-cards-container,
+.footer-section-two {
+  display: grid;
+
+  grid-template-columns: auto auto;
+}
+
+.front {
+  padding-top: 300px;
+}
+
+.third-section-container {
+
+
+}
+
+.perspective-video {
+
+text-align: center;
+margin-top: 25px;
+
+}
+
+.video-intro {
+
+  width: 100%;
+}
+
+.banner {
+height: 350px;
+
+}
+
+
+.banner-one {
+
+width: 700px;
+}
+
+.hub-section-container {
+
+display: flex;
+flex-direction: column;
+}
+
+.hubspot-logo-container {
+
+  text-align: center;
+}
+
+.hub-dots {
+
+  margin-left: 100px;
+}
+
+.hub-logo {
+margin-left: 225px;
+
+}
+
+.woman-arms-folded {
+
+  margin-left: 170px;
+}
+
+
+
+.perspective-paragraph {
+
+  width: 100%;
+  text-align: center;
+}
+
+.company-list {
+
+
+}
+
+.intro {
+
+  font-size: 35px;
+}
+
+.list {
+
+  width: 100px;
+}
+
+.price-card-container {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.price-content {
+
+  width: 675px;
+  margin-left: 15px;
+}
+
+
+.card-price, .card-text, .card-credit {
+
+  text-align: center;
+}
+
+
+
+.button-card {
+
+  margin-left: 275px;
+}
+
+.hire-line {
+
+  width: 600px;
+}
+
+.price-grid-container {
+
+margin-left: 50px;
+}
 
 
 

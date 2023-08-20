@@ -30,6 +30,12 @@ body {
   margin-right: 40px;
 }
 
+.play-video-buttons-container {
+
+  display: flex;
+  gap: 5px;
+}
+
 .play-video-button,
 .buy-now-button,
 .button-banner,
@@ -39,8 +45,9 @@ body {
   background-color: #3b87dd;
   border: none;
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500px;
+  text-decoration: none;
   width: 175px;
   height: 60px;
   border-radius: 30px;
@@ -59,6 +66,7 @@ body {
 }
 
 .motto-container {
+
   padding-top: 75px;
   margin-left: 25px;
 }
@@ -78,7 +86,8 @@ body {
 }
 
 .learn {
-  display: contents;
+  /* display: contents; */
+  margin-left: 20px;
   color: #3b87dd;
   font-weight: 600;
   font-size: 24px;
@@ -86,6 +95,7 @@ body {
 
 .icon-container {
   display: flex;
+
   float: right;
   bottom: 400px;
   position: relative;
@@ -94,7 +104,7 @@ body {
 .icons {
   display: flex;
   position: relative;
-  margin-right: 50px;
+  margin-right: 25px;
 }
 
 .logo {
@@ -152,8 +162,8 @@ body {
 .logo-six {
   width: 125px;
   height: 125px;
-  margin-left: -539px;
-  margin-top: 445px;
+  margin-left: -639px;
+  margin-top: 475px;
   border-radius: 50%;
   padding: 19px;
   background-color: white;
@@ -163,7 +173,7 @@ body {
 .logo-seven {
   width: 155px;
   height: 155px;
-  margin-left: -175px;
+  margin-left: -275px;
   margin-top: 500px;
   border-radius: 50%;
   padding: 27px;
@@ -172,7 +182,7 @@ body {
 }
 
 .card-container {
-  /* margin-top: 500px; */
+  margin-top: -100px;
 }
 
 .benefits-container,
@@ -195,8 +205,8 @@ body {
 
 .card-content,
 .price-content {
-  width: 275px;
-  height: 450px;
+  width: 300px;
+  height: 475px;
   background-color: white;
   border-radius: 10px;
   box-shadow: 5px 5px 5px 5px #ecedef;
@@ -256,6 +266,11 @@ p.sub-header {
   justify-content: center;
 }
 
+.banner {
+
+  display: flex;
+}
+
 .box-sizing {
   height: 600px;
   display: flex;
@@ -266,10 +281,10 @@ p.sub-header {
 }
 
 .perspective-video {
+  display: flex;
+  flex-direction: column;
   height: 1000px;
-  margin-right: 60px;
   font-size: 35px;
-  margin-left: 50px;
   margin-top: 200px;
 }
 
@@ -280,7 +295,7 @@ p.sub-header {
 .banner-one {
   display: flex;
   margin-top: 130px;
-  margin-left: 55px;
+
 }
 
 .button-card {
@@ -374,8 +389,8 @@ p.sub-header {
 }
 
 .fifth-section {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 15px;
+  margin-right: 15px;
   margin-top: 150px;
   padding-bottom: 200px;
 }
@@ -408,7 +423,8 @@ p.sub-header {
 }
 
 .hub-dots {
-  margin-left: 200px;
+  margin-left: 100px;
+  /* margin-left: 200px; */
   position: absolute;
   margin-top: 50px;
   z-index: -1;
@@ -427,10 +443,24 @@ p.sub-header {
 }
 
 .woman-arms-folded {
+
+
   display: flex;
   height: 500px;
-  margin-left: 270px;
+  margin-left: 170px;
   margin-top: 45px;
+
+
+
+
+
+
+
+
+  /* display: flex;
+  height: 500px;
+  margin-left: 270px;
+  margin-top: 45px;  */
 }
 
 .hubspot-logo-container {
