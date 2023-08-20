@@ -33,7 +33,7 @@ body {
 .play-video-buttons-container {
 
   display: flex;
-  gap: 5px;
+
 }
 
 .play-video-button,
@@ -85,13 +85,13 @@ body {
   font-weight: 600;
 }
 
-.learn {
-  /* display: contents; */
+.learn, .card-learn {
   margin-left: 20px;
   color: #3b87dd;
   font-weight: 600;
   font-size: 24px;
 }
+
 
 .icon-container {
   display: flex;
@@ -203,6 +203,11 @@ body {
   gap: 2rem;
 }
 
+ .card-learn {
+  margin-left: 20px;
+ 
+}
+
 .card-content,
 .price-content {
   width: 300px;
@@ -230,7 +235,7 @@ body {
 
 .card-paragraph {
   font-size: 24px;
-  font-weight: 200;
+  font-weight: 400;
   text-align: left;
   margin-left: 20px;
   margin-right: 20px;
@@ -284,12 +289,14 @@ p.sub-header {
   display: flex;
   flex-direction: column;
   height: 1000px;
+  margin-left: 20px;
   font-size: 35px;
   margin-top: 200px;
 }
 
 .video-intro {
   width: 75%;
+  font-weight: 500;
 }
 
 .banner-one {
@@ -401,7 +408,8 @@ p.sub-header {
   display: flex;
   justify-content: center;
   align-items: center;
-  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
   margin-left: auto;
   margin-right: auto;
   height: 650px;
@@ -424,7 +432,6 @@ p.sub-header {
 
 .hub-dots {
   margin-left: 100px;
-  /* margin-left: 200px; */
   position: absolute;
   margin-top: 50px;
   z-index: -1;
@@ -443,24 +450,11 @@ p.sub-header {
 }
 
 .woman-arms-folded {
-
-
   display: flex;
   height: 500px;
   margin-left: 170px;
   margin-top: 45px;
 
-
-
-
-
-
-
-
-  /* display: flex;
-  height: 500px;
-  margin-left: 270px;
-  margin-top: 45px;  */
 }
 
 .hubspot-logo-container {
@@ -479,6 +473,7 @@ p.sub-header {
 .perspective-paragraph {
   font-size: 26px;
   width: 50%;
+  font-weight: 500;
   text-align: justify;
 }
 
@@ -790,14 +785,27 @@ p.dots {
   border-radius: 30px;
 }
 
+.footer-tablet-grid-container {
+
+  display: flex;
+  width: 75%;
+  justify-content: space-around;
+}
+
 .footer-info-container {
   display: flex;
   width: 100%;
   line-height: 0;
+  font-weight: 600;
   text-align: center;
-  justify-content: space-evenly;
+  justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
+}
+
+.footer-section-one {
+
+  display: flex;
 }
 
 .company-info {
@@ -822,9 +830,6 @@ img.location-arrow {
   align-items: center;
   font-size: 24px;
   gap: 10px;
-}
-
-.address {
 }
 
 .location-arrow,
@@ -866,11 +871,12 @@ img.location-arrow {
   color: #3b87dd;
 }
 
-.footer-info {
+.footer-info, .footer-info-two {
   display: flex;
   align-items: center;
   font-size: 24px;
 }
+
 
 .info-icon {
   width: 40px;
@@ -886,6 +892,7 @@ img.location-arrow {
 .github {
   height: 60px;
   width: 60px;
+  background-color: #dfe0e2;
 }
 
 .footer-info-container-two {

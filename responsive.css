@@ -24,614 +24,257 @@
     display: none;
   }
 
- 
-.motto-container {
-
-  text-align: center;
-}
-
-.play-video-buttons-container {
-/* 
-  margin-left: 150px; */
-}
-
-.play-video-button {
-
-  margin-left: 165px;
-}
-
-.icon-container {
-  
-  top: 100px;
-  justify-content: center;
-}
-
-.icons {
-  margin-left: 50px;
-}
-
-.logo-four {
-
-  margin-right: 300px;
-  margin-top: 200px;
-}
-
-.logo-five {
-
-  margin-top: 220px;
-}
-
-.logo-six {
-
-margin-right: 300px;
-}
-
-.logo-seven {
-
-  margin-bottom: 200px;
-}
-
-.box-sizing {
-
-  display: flex;
-  flex-direction: column;
-width: 700px;
-
-}
-
-.card-container {
-
-
-}
-
-.four-cards-container{
-
-  display: flex;
-  flex-direction: column;
-}
-
-.four-cards-container,
-.footer-section-two {
-  display: grid;
-
-  grid-template-columns: auto auto;
-}
-
-.front {
-  padding-top: 300px;
-}
-
-.third-section-container {
-
-
-}
-
-.perspective-video {
-
-text-align: center;
-margin-top: 25px;
-
-}
-
-.video-intro {
-
-  width: 100%;
-}
-
-.banner {
-height: 350px;
-
-}
-
-
-.banner-one {
-
-width: 700px;
-}
-
-.hub-section-container {
-
-display: flex;
-flex-direction: column;
-}
-
-.hubspot-logo-container {
-
-  text-align: center;
-}
-
-.hub-dots {
-
-  margin-left: 100px;
-}
-
-.hub-logo {
-margin-left: 225px;
-
-}
-
-.woman-arms-folded {
-
-  margin-left: 170px;
-}
-
-
-
-.perspective-paragraph {
-
-  width: 100%;
-  text-align: center;
-}
-
-.company-list {
-
-
-}
-
-.intro {
-
-  font-size: 35px;
-}
-
-.list {
-
-  width: 100px;
-}
-
-.price-card-container {
-
-  display: flex;
-  flex-direction: column;
-}
-
-.price-content {
-
-  width: 675px;
-  margin-left: 15px;
-}
-
-
-.card-price, .card-text, .card-credit {
-
-  text-align: center;
-}
-
-
-
-.button-card {
-
-  margin-left: 275px;
-}
-
-.hire-line {
-
-  width: 600px;
-}
-
-.price-grid-container {
-
-margin-left: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* .buy-now {
-    display: none;
-  }
-
-  #background {
-    height: 965px;
-  }
-
   .motto-container {
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-
-  .motto {
     text-align: center;
   }
 
+  .learn,
+  .card-learn {
+    color: #3b87dd;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .play-video-button {
+    margin-left: 165px;
+  }
+
   .icon-container {
-    display: flex;
-    margin-top: 300px;
-    padding-top: 200px;
+    top: 100px;
     justify-content: center;
   }
 
   .icons {
-    margin-right: 550px;
-  }
-
-  .logo {
-    margin-top: 5px;
-  }
-
-  .logo-two {
-    margin-top: 30px;
-  }
-
-  .logo-three {
-    margin-left: 110px;
-    margin-top: 75px;
+    margin-left: 50px;
   }
 
   .logo-four {
-    margin-left: -567px;
-    margin-top: 180px;
+    margin-right: 300px;
+    margin-top: 200px;
   }
 
   .logo-five {
-    margin-left: -250px;
-    margin-top: 208px;
+    margin-top: 220px;
   }
 
   .logo-six {
-    margin-left: -450px;
-    margin-top: 380px;
+    margin-right: 300px;
   }
 
   .logo-seven {
-    margin-left: -175px;
-    margin-top: 400px;
-  }
-
-  .four-cards-container,
-  .footer-section-two {
-    display: grid;
-
-    grid-template-columns: auto auto;
-  }
-
-  .card-content {
-    width: 300px;
-    height: 300px;
-  }
-
-  .card-title,
-  .card-paragraph {
-    font-size: 18px;
-  }
-
-  .third-section-container {
-    display: flex;
-    justify-content: flex-start;
+    margin-bottom: 200px;
   }
 
   .box-sizing {
     display: flex;
     flex-direction: column;
-    height: 652px;
-    background-color: #f8f9fa;
+    width: 700px;
+  }
 
-    margin-left: 65px;
-    margin: 15px;
-    font-size: 24px;
+  .four-cards-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-learn {
+    margin-left: 20px;
+  }
+
+  .four-cards-container,
+  .footer-section-two,
+  .footer-tablet-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+
+  .front {
+    padding-top: 300px;
   }
 
   .perspective-video {
-    margin-top: 50px;
-    height: 1000px;
-
-    position: absolute;
     text-align: center;
-    font-size: 26px;
+    margin-top: 25px;
   }
 
   .video-intro {
-    margin-top: 0px;
-    margin-left: 100px;
-  }
-
-  .play-video {
-    margin-right: 10px;
-    justify-content: center;
-    padding-top: 10px;
-  }
-
-  .button-tablet {
-    margin-left: -15px;
-  }
-
-  .banner-one {
     width: 100%;
-    margin-left: -15px;
-    margin-top: 250px;
-    margin-bottom: 500px;
-    float: right;
-  }
-
-  .fifth-section {
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 100px;
   }
 
   .banner {
-    height: 300px;
-    width: 650px;
-  } */
-}
-
-  /* SIXTH SECTION */
-
-  /* .hub-section-container {
-    flex-direction: column;
-
-    align-items: center;
+    height: 350px;
   }
 
-  .hub-logo {
-    margin-left: 253px;
+  .banner-one {
+    width: 700px;
+  }
+
+  .hub-section-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .worlds-best-container {
+    padding-top: 30px;
+  }
+
+  .hubspot-logo-container {
+    text-align: center;
   }
 
   .hub-dots {
-    margin-right: 230px;
+    margin-left: 100px;
+  }
+
+  .hub-logo {
+    margin-left: 225px;
   }
 
   .woman-arms-folded {
-    margin-left: 50px;
-  }
-
-  .dots {
-    margin-right: 230px;
-  }
-
-  .hubspot-logo {
-    text-align: center;
+    margin-left: 170px;
   }
 
   .perspective-paragraph {
     width: 100%;
     text-align: center;
-    font-size: 24px;
-  }
-
-  .position-title {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  /* EIGHT SECTION */
-
-  /* .worlds-best-container {
-    padding-top: 25px;
-    text-align: center;
   }
 
   .intro {
-    font-size: 24px;
+    font-size: 35px;
   }
+
   .list {
     width: 100px;
-  }  */
-/* 
+  }
+
   .price-card-container {
-    justify-content: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    gap: 2rem;
-  } */
-
-  /* .price-content {
-    width: 750px;
   }
 
-  .card-price {
-    text-align: center;
-    font-weight: 400;
+  .price-content {
+    width: 675px;
+    margin-left: 25px;
   }
 
-  .card-text {
-    font-size: 18px;
-    text-align: center;
-  }
-  .line {
-    width: 620px;
-  }
-
+  .card-price,
+  .card-text,
   .card-credit {
     text-align: center;
-    font-size: 18px;
   }
 
-  .card-header {
-    font-size: 16px;
-    font-weight: bold;
-    text-align: justify;
+  .button-card {
+    margin-left: 275px;
   }
 
-
-  
+  .hire-line {
+    width: 600px;
+  }
 
   .price-grid-container {
-    display: grid;
-    gap: 40px;
-    margin-top: 45px;
-    margin-left: 142px;
-  } */
+    margin-left: 50px;
+  }
 
-  /* NINTH SECTION */
-/* 
   .box-sizing-two {
-    display: flex;  */
-    /* flex-direction: column; */
-    /* height: 1200px;
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
   }
 
   .contact-form {
-    margin-left: 200px;
-  }
-
-  .form-box { 
     display: flex;
-    flex-direction: column;
-
-    margin-left: 65px;
+    flex-direction: row;
   }
 
-  .form-container {
-    flex-direction: column;
-    margin-top: 1px;
-  }
-
-  .privacy-policy {
-    /* display: contents; */
-    /* font-size: 18px;
+  .people-container {
+    margin-left: -135px;
   }
 
   .hire-container {
-    margin-left: -180px;
+    margin-left: 20px;
+  }
+
+  .hire-us {
     font-size: 20px;
   }
 
-  .hire-us-line {
-    width: 385px;
-
-    margin-right: 400px;
-  }
-
-  .hire-us-motto {
-    font-size: 20px;
-  }
-
+  .quote,
+  .hire-us-motto,
   .client-title {
-    font-size: 18px;
-  }
-
-  .people-container { */
-    /* margin-left: 246px;
-    margin-top: -277px; */
-  
-
-
-
-  /* .quote {
-    font-size: 18px;
-    margin-top: 75px;
-  }
-
-  .button-three {
-    margin-top: 20px;
-  } */
-
-  /* FOOTER CONTAINER */
-
-
-/* 
-.legal-paragraph {
-
-
-} */
-
-
-  /* .footer-info-container-two {
     font-size: 20px;
-    display: flex;
-    margin-left: 5px;
-    margin-right: 5px;
   }
 
-  .address {
-    font-size: 18px;
+  .form-box {
+    margin-left: 53px;
+  }
+
+  .footer-tablet-grid-container {
+    width: 60%;
+    margin-left: -5px;
+    grid-row-gap: 40px;
   }
 
   img.location-arrow {
     width: 50px;
-    margin-left: -11px;
   }
 
-  .location-arrow,
   .telephone {
-    width: 25px;
+    width: 30px;
+    margin-left: 10px;
   }
 
-  .footer-section-two {
-    display: grid;
-    column-gap: 40px;
-    row-gap: 50px;
-  }
-
-  .company-info,
-  .options,
-  .footer-info {
+  .company-info {
     font-size: 18px;
   }
 
-  .sketch-two {
-    width: 100px;
+  .address {
+    font-size: 14px;
+  }
+
+  .footer-info {
+    font-size: 18px;
+    gap: 2px;
+  }
+
+  .footer-info-container {
+
     margin-left: 10px;
+  }
+
+
+
+  .footer-info-container-two {
+    display: flex;
+    font-size: 16px;
+  }
+
+  .media-container {
+    gap: 2px;
   }
 
   .facebook,
   .google,
   .twitter,
   .github {
-    width: 30px;
     height: 30px;
+    width: 30px;
+    margin: 5px;
   }
 
   .site-location {
-    height: 30px;
-    width: 185px;
+    width: 175px;
+    margin-left: 5px;
   }
-
-  .media-container {
-    gap: 10px;
-  }
-
   .legal-paragraph {
-    width: 100%;
-    margin-left: 0px;
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 14px;
   }
 
-  .legal-stuff {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 45px;
-    font-size: 18px;
-  } */
-
-  /* SIXTH SECTION */
-
-  @media screen and (max-width: 360px){
+  @media screen and (max-width: 360px) {
     [aria-controls="buynowDropdown"] {
       display: block;
       border: none;
       background: transparent;
       font-size: 35px;
     }
-  
 
     [aria-controls="false"] ~ ul {
       display: none;
@@ -645,206 +288,122 @@ margin-left: 50px;
       display: none;
     }
 
-    /* #background {
-      height: 810px;
-    }
-
-    .container {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      width: 100%;
-      padding-top: 25px;
-      padding-top: 25px;
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    .buy-now {
-      display: none;
-    }
-
     .nav-name {
-      width: 170px;
-    }
-
-    .motto-container {
-      padding-top: 10px;
+      width: 140px;
     }
 
     .motto {
-      font-size: 18px;
+      font-size: 25px;
     }
 
-    .sub-header-small {
-      font-weight: 400;
-    }
-
-    .icon-container {
-      padding-top: 263px;
-    }
-
-    .icons {
-      padding-top: 70px;
-      margin-left: -40px;
-    }
-
-    .logo {
-      margin-left: 349px;
-      height: 75px;
-      width: 75px;
-    }
-
-    .logo-two,
-    .logo-three {
-      height: 100px;
-      width: 100px;
-      margin-left: 30px;
-    }
-
-    .logo-two {
-      margin-top: 10px;
-    }
-
-    .logo-three {
-      height: 100px;
-      width: 100px;
-      margin-top: 5px;
+    .learn,
+    .card-learn {
+      color: #3b87dd;
+      font-weight: 600;
+      font-size: 24px;
       margin-left: 10px;
     }
 
-    .logo-four {
-      height: 100px;
+    .sub-header-small {
+      font-size: 20px;
+    }
+
+    .play-video-buttons-container {
+      width: 100%;
+    }
+
+    .play-video-button {
+      margin-left: -11px;
+      margin-top: 10px;
+    }
+
+    .logo {
+      width: 75px;
+      height: 75px;
+    }
+
+    .logo-two {
       width: 100px;
-      margin-left: -300px;
-      margin-top: 140px;
+      height: 100px;
+      margin-left: 10px;
+    }
+
+    .logo-three {
+      width: 85px;
+      height: 85px;
+      margin-left: 25px;
+    }
+
+    .logo-four {
+      margin-right: -255px;
+      width: 95px;
+      height: 95px;
+      margin-top: 150px;
     }
 
     .logo-five {
-      height: 90px;
       width: 90px;
-      margin-left: -125px;
-      margin-top: 165px;
+      height: 90px;
+      margin-right: -155px;
+      margin-top: 170px;
     }
 
     .logo-six {
-      height: 75px;
-      width: 75px;
-      margin-left: -215px;
-      margin-top: 270px;
+      margin-right: -250px;
+      height: 70px;
+      width: 70px;
+      margin-top: 305px;
     }
 
     .logo-seven {
-      height: 100px;
-      width: 100px;
-      padding: 15px;
-      margin-top: 300px;
-      margin-left: -100px;
-    }
-
-    .play-video {
-      align-items: center;
-
-      display: flex;
-      flex-direction: column;
-    }
-
-    .button-two {
-      margin-left: -29px;
+      height: 115px;
+      margin-top: 313px;
+      width: 115px;
+      margin-left: -130px;
     }
 
     .four-cards-container {
       display: flex;
       flex-direction: column;
-      margin-left: 10px;
     }
 
-    .benefits-container {
-      margin-left: 0px;
+    .card-learn {
+      margin-left: 20px;
+    }
+
+    .front {
+      padding-top: 0px;
     }
 
     .card-content {
-      width: 336px;
-      height: 315px;
+      width: 325px;
+      height: 350px;
+      margin-left: 12px;
     }
 
-    .card-title,
-    .card-paragraph {
+    .card-paragraph,
+    p.sub-header,
+    .rule,
+    .price,
+    .bottom-navbar {
       font-size: 18px;
     }
 
-    .learn {
-      padding-right: 47px;
-      font-size: 18px;
-    }
-
-    .third-section-container {
-      display: flex;
-      justify-content: flex-start;
-      flex-direction: column;
-    }
-
-    .box-sizing {
-      display: flex;
-      background-color: #f8f9fa;
-      height: 835px;
-      width: 90%;
-      position: absolute;
-      margin: 20px;
-      font-size: 24px;
-    }
-    .perspective-video {
-      height: 1000px;
-      position: absolute;
-      padding: 0px;
-      text-align: center;
-      font-size: 26px;
-    }
-
-    .video-intro {
-      width: 100%;
-      font-size: 24px;
-      margin-left: 7px;
+    .box-sizing,
+    .banner-one {
+      width: 325px;
+      margin-top: 20px;
     }
 
     .banner-one {
-      display: flex;
-      position: static;
-      width: 100%;
-      object-fit: none;
-      margin-left: 0%;
-      height: 100%;
-      margin-top: 168px;
-      float: right;
-    }
+      width: 325px;
 
-    .hub-section-container {
-      margin-top: -90px;
-    }
-
-    .director-statement-container {
-      width: 100%;
-      display: flex;
-      flex-direction: column;
-      margin-left: 650px;
-      color: #000;
-      margin-top: -600px;
-      font-size: 20px;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .perspective-paragraph {
-      margin-left: -26px;
-    } */
-
-    /* fourth section */
-    /* .front {
-      padding-top: 900px;
+      margin-top: 50px;
     }
 
     p.sub-header {
-      font-size: 23px;
+      font-size: 18px;
+      font-weight: 500;
       margin-left: 10px;
     }
 
@@ -860,142 +419,150 @@ margin-left: 50px;
     .connect-wrapper p {
       font-size: 20px;
       margin-left: 20px;
-    } */
-  
-    /* fifth section */
+    }
 
-    /* .fifth-section {
-      margin-left: 10px;
-      margin-right: 10px;
+    .fifth-section {
+      margin-top: 90px;
     }
 
     .banner {
-      height: 175px;
-      width: 320px;
-      margin-left: 10px;
-    } */
-
-    /* SIXTH SECTION */
-
-    /* .woman-arms-folded {
-      width: 275px;
-      height: 400px;
-      margin-top: -25px;
-      margin-left: 30px;
+      height: 200px;
     }
 
     .hub-dots {
-        margin-left: 200px;
-      position: absolute;
-      margin-top: 50px;
-      z-index: -1;
+      margin-left: 10px;
     }
 
     .dots {
-      margin-right: 235px;
-      width: 200px;
+      height: 430px;
+    }
+
+    .woman-arms-folded {
+      margin-left: 56px;
+      width: 279px;
+      margin-top: -20px;
+      height: 437px;
     }
 
     .hub-logo {
-      margin-left: 25px;
+      margin-left: 60px;
+
+      width: 150px;
+    }
+
+    .perspective-paragraph {
+      font-size: 23px;
+      width: 85%;
+      color: black;
     }
 
     .position-title {
-      margin-left: -55px;
-    } */
-
-    /* EIGHT SECTION */
-
-    /* .company-list {
-      display: flex;
-      line-height: 5;
-      flex-direction: column;
-      justify-content: space-around;
-    }
-
-    .worlds-best-container {
-      padding-top: 25px;
-      text-align: center;
+      width: 85%;
     }
 
     .intro {
       font-size: 20px;
     }
 
-    .price {
-      padding-top: 20px;
+    .company-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 45px;
     }
 
-    .card-testimonial {
-      padding: 10px;
-      font-size: 30px;
-      width: 300px;
-      height: 281px;
-      text-align: center;
+    .list {
+      display: flex;
+      flex-direction: column;
+      gap: 40px;
     }
 
     .price-content {
-      width: 331px;
-      height: 492px;
-      margin-left: 10px;
+      width: 325px;
     }
 
-    .card-text {
-      width: 100%;
-      margin-left: -2px;
-    }
-    .line {
+    .hire-line {
       width: 300px;
     }
 
-    .button-two {
-      margin-left: -28px;
+    .button-card {
+      margin-left: 55px;
     }
 
+    .card-text,
     .card-credit {
-      margin-left: -34px;
+      text-align: justify;
+      margin-right: 50px;
+      font-weight: 500;
+    }
+
+    .card-price {
+      font-size: 54px;
+      font-weight: 500px;
     }
 
     .price-grid-container {
       display: flex;
       flex-direction: column;
-
-      margin-left: 20px;
+      margin-left: 0px;
       width: 350px;
-      padding: 10px;
     }
 
-    .hire-container {
-      margin-right: 32px;
-      margin-top: 550px;
-      text-align: center;
+    .card-grid {
+      margin-left: -100px;
     }
 
-    .client-title {
-      margin-left: -20px;
+    .sketch-two {
+      background-color: #37a37f;
     }
 
-    .hire-us-people {
-      margin-left: -40px;
+    .contact-form {
+      display: flex;
+      flex-direction: column;
     }
 
     .box-sizing-two {
-      height: 1735px;
-      margin-top: -20px;
+      width: 325px;
+      height: 1700px;
     }
 
-    .people-container {
-      display: flex;
-      flex-direction: column;
-      margin-left: -137px;
-      margin-top: 10px;
+    .hire-container {
+      text-align: center;
+      width: 100%;
+
+      margin-left: 0px;
+    }
+
+    .hire-us-motto {
+      font-size: 17px;
+      font-weight: 500;
+    }
+
+    .quote {
+      text-align: center;
+      font-size: 19px;
+    }
+
+    .client-name {
+      margin-left: 70px;
+    }
+
+    .client-title {
+      margin-left: 35px;
+    }
+
+    .hire-us-people {
+      margin-left: 25px;
+    }
+
+    .footer-info-container {
+      margin-top: 200px;
     }
 
     .form-box {
-      margin-left: 10px;
-      margin-bottom: 600px;
-      width: 310px;
-      height: 1500px;
+      width: 300px;
+      margin-left: 13px;
+      height: 1000px;
     }
 
     .form-text {
@@ -1006,85 +573,100 @@ margin-left: 50px;
     .drop-down {
       display: flex;
       flex-direction: column;
-      gap: 25px;
     }
 
     .interview {
       width: 250px;
+      height: 100px;
     }
 
-    .privacy-policy {
-      display: flex;
-      flex-direction: column;
-
-      width: 100%;
-    }
-
-    .dots {
-      display: contents;
-      width: 200px;
+    .privacy-policy label {
+      display: inherit;
+      width: 90%;
+      font-size: 16px;
+      font-size: 16px;
+      color: #403f3f;
+      font-weight: 500;
     }
 
     p.dots {
       display: none;
     }
 
-    .button-three {
-      margin-bottom: 40px;
+    .policy-link {
+      margin-left: 50px;
     }
 
-    .policy {
+    .button-three {
+      margin-left: -35px;
+    }
+
+    input[type="checkbox"] {
+      margin-left: 1px;
+    }
+
+    .footer-tablet-grid-container {
       display: flex;
-      width: 100%;
-    } */
-  
+      flex-direction: column;
+    }
+
+    .footer-info-container {
+      display: flex;
+      align-items: end;
+      flex-direction: column;
+   
+      margin-top: -5px;
+    }
+
+    .footer-info {
+      align-items: center;
+      margin-left: -50px;
+    }
+
+    .footer-info-two {
+      font-size: 18px;
+      align-items: center;
+    }
+
+    .address {
+      font-size: 18px;
+      margin-left: 4px;
+    }
+
+    .company-info {
+      gap: 15px;
+      margin-left: -60px;
+    }
+
+    .telephone {
+      width: 23px;
+      height: 23px;
+      font-size: 18px;
+      margin-left: 60px;
+    }
+
+    img.location-arrow {
+      width: 50px;
+      height: 50px;
+    }
+
+    .footer-info-container-two {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .site-location {
+      width: 225px;
+    }
+    .social-media {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+
+    .media-container {
+      gap: 20px;
+    }
   }
 
-    /* last part */
-  
-
-
-   /* .footer-info-container {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .company-info {
-
-
-  }
-
-  .footer-info {
-    justify-content: center;
-  }
-
-  .footer-section-two {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .img.location {
-
-    width: 50px;
-    margin-left: -30px;
-    margin-right: 2px;
-  }
-
-  .footer-info-container-two {
-
-    display: flex;
-    flex-direction: column;
-  }
-
-  .social-media {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  } 
-
-
-
- */
+}
