@@ -1,5 +1,3 @@
-/* TABLET RESPONSIVE */
-
 @media screen and (max-width: 768px) {
   [aria-controls="buynowDropdown"] {
     display: block;
@@ -24,7 +22,11 @@
     display: none;
   }
 
-  .motto-container {
+  .motto-container,
+  .hubspot-logo-container,
+  .card-price,
+  .card-text,
+  .card-credit {
     text-align: center;
   }
 
@@ -44,11 +46,8 @@
     justify-content: center;
   }
 
-  .icons {
-    margin-left: 50px;
-  }
-
-  .logo-four {
+  .logo-four,
+  .logo-six {
     margin-right: 300px;
     margin-top: 200px;
   }
@@ -71,7 +70,8 @@
     width: 700px;
   }
 
-  .four-cards-container {
+  .four-cards-container,
+  .hub-section-container {
     display: flex;
     flex-direction: column;
   }
@@ -108,17 +108,8 @@
     width: 700px;
   }
 
-  .hub-section-container {
-    display: flex;
-    flex-direction: column;
-  }
-
   .worlds-best-container {
     padding-top: 30px;
-  }
-
-  .hubspot-logo-container {
-    text-align: center;
   }
 
   .hub-dots {
@@ -156,12 +147,6 @@
     margin-left: 25px;
   }
 
-  .card-price,
-  .card-text,
-  .card-credit {
-    text-align: center;
-  }
-
   .button-card {
     margin-left: 275px;
   }
@@ -170,7 +155,9 @@
     width: 600px;
   }
 
-  .price-grid-container {
+  .price-grid-container,
+  .icons,
+  .policy-link {
     margin-left: 50px;
   }
 
@@ -226,21 +213,14 @@
     font-size: 18px;
   }
 
-  .address {
-    font-size: 14px;
-  }
-
   .footer-info {
     font-size: 18px;
     gap: 2px;
   }
 
   .footer-info-container {
-
     margin-left: 10px;
   }
-
-
 
   .footer-info-container-two {
     display: flex;
@@ -264,7 +244,8 @@
     width: 175px;
     margin-left: 5px;
   }
-  .legal-paragraph {
+  .legal-paragraph,
+  .address {
     font-size: 14px;
   }
 
@@ -565,12 +546,10 @@
       height: 1000px;
     }
 
-    .form-text {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .drop-down {
+    .form-text,
+    .drop-down,
+    .footer-tablet-grid-container,
+    .footer-info-container-two {
       display: flex;
       flex-direction: column;
     }
@@ -593,10 +572,6 @@
       display: none;
     }
 
-    .policy-link {
-      margin-left: 50px;
-    }
-
     .button-three {
       margin-left: -35px;
     }
@@ -605,16 +580,10 @@
       margin-left: 1px;
     }
 
-    .footer-tablet-grid-container {
-      display: flex;
-      flex-direction: column;
-    }
-
     .footer-info-container {
       display: flex;
       align-items: end;
       flex-direction: column;
-   
       margin-top: -5px;
     }
 
@@ -650,11 +619,6 @@
       height: 50px;
     }
 
-    .footer-info-container-two {
-      display: flex;
-      flex-direction: column;
-    }
-
     .site-location {
       width: 225px;
     }
@@ -668,5 +632,4 @@
       gap: 20px;
     }
   }
-
 }

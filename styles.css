@@ -2,16 +2,6 @@ body {
   margin: 0;
 }
 
-.top-nav {
-  position: fixed;
-  padding: 1rem;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 500;
-  transition: ease-in-out 0.3s;
-}
-
 [aria-controls="buynowDropdown"] {
   display: none;
 }
@@ -30,18 +20,21 @@ body {
   margin-right: 40px;
 }
 
-.play-video-buttons-container {
-
+.play-video-buttons-container,
+.play-video-button,
+.banner,
+.woman-blazer,
+.footer-info-container,
+.footer-section-two,
+.footer-section-one {
   display: flex;
-
 }
 
 .play-video-button,
 .buy-now-button,
 .button-banner,
 .button-card,
-.button
- {
+.button {
   background-color: #3b87dd;
   border: none;
   color: white;
@@ -53,10 +46,6 @@ body {
   border-radius: 30px;
 }
 
-.play-video-button {
-  display: flex;
-}
-
 .play-triangle-icon {
   width: 25px;
   height: 25px;
@@ -66,7 +55,6 @@ body {
 }
 
 .motto-container {
-
   padding-top: 75px;
   margin-left: 25px;
 }
@@ -85,17 +73,16 @@ body {
   font-weight: 600;
 }
 
-.learn, .card-learn {
+.learn,
+.card-learn {
   margin-left: 20px;
   color: #3b87dd;
   font-weight: 600;
   font-size: 24px;
 }
 
-
 .icon-container {
   display: flex;
-
   float: right;
   bottom: 400px;
   position: relative;
@@ -203,9 +190,8 @@ body {
   gap: 2rem;
 }
 
- .card-learn {
+.card-learn {
   margin-left: 20px;
- 
 }
 
 .card-content,
@@ -271,11 +257,6 @@ p.sub-header {
   justify-content: center;
 }
 
-.banner {
-
-  display: flex;
-}
-
 .box-sizing {
   height: 600px;
   display: flex;
@@ -302,7 +283,6 @@ p.sub-header {
 .banner-one {
   display: flex;
   margin-top: 130px;
-
 }
 
 .button-card {
@@ -374,10 +354,7 @@ p.sub-header {
 .connect:after {
   background: #e6e9f2;
 }
-.connect-first:before {
-  background: transparent;
-}
-
+.connect-first:before,
 .connect-last::after {
   background: transparent;
 }
@@ -445,7 +422,9 @@ p.sub-header {
 
 .woman-blazer,
 .footer-info-container,
-.footer-section-two .footer-section-one {
+.footer-section-two,
+.footer-section-one,
+.social-media {
   display: flex;
 }
 
@@ -454,7 +433,6 @@ p.sub-header {
   height: 500px;
   margin-left: 170px;
   margin-top: 45px;
-
 }
 
 .hubspot-logo-container {
@@ -649,11 +627,6 @@ h1 {
   padding-top: 60px;
 }
 
-.hire-us-motto,
-.client-title {
-  color: #666;
-}
-
 .hire-us-people {
   display: flex;
   align-items: center;
@@ -786,7 +759,6 @@ p.dots {
 }
 
 .footer-tablet-grid-container {
-
   display: flex;
   width: 75%;
   justify-content: space-around;
@@ -801,11 +773,6 @@ p.dots {
   justify-content: center;
   padding-top: 100px;
   padding-bottom: 100px;
-}
-
-.footer-section-one {
-
-  display: flex;
 }
 
 .company-info {
@@ -838,10 +805,6 @@ img.location-arrow {
   rotate: 2deg;
 }
 
-.footer-section-two {
-  display: flex;
-}
-
 .options {
   color: #000;
   font-weight: 600;
@@ -871,12 +834,12 @@ img.location-arrow {
   color: #3b87dd;
 }
 
-.footer-info, .footer-info-two {
+.footer-info,
+.footer-info-two {
   display: flex;
   align-items: center;
   font-size: 24px;
 }
-
 
 .info-icon {
   width: 40px;
@@ -902,10 +865,6 @@ img.location-arrow {
   margin-left: 10px;
   align-items: center;
   font-size: 24px;
-}
-
-.social-media {
-  display: flex;
 }
 
 .media-container {
