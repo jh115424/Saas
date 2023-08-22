@@ -76,10 +76,6 @@
     flex-direction: column;
   }
 
-  .card-learn {
-    margin-left: 20px;
-  }
-
   .four-cards-container,
   .footer-section-two,
   .footer-tablet-grid-container {
@@ -176,7 +172,7 @@
     margin-left: -135px;
   }
 
-  .hire-container {
+  .hire-container, .card-learn {
     margin-left: 20px;
   }
 
@@ -427,7 +423,6 @@
 
     .hub-logo {
       margin-left: 60px;
-
       width: 150px;
     }
 
@@ -497,11 +492,6 @@
       background-color: #37a37f;
     }
 
-    .contact-form {
-      display: flex;
-      flex-direction: column;
-    }
-
     .box-sizing-two {
       width: 325px;
       height: 1700px;
@@ -510,7 +500,6 @@
     .hire-container {
       text-align: center;
       width: 100%;
-
       margin-left: 0px;
     }
 
@@ -545,7 +534,7 @@
       margin-left: 13px;
       height: 1000px;
     }
-
+    .contact-form,
     .form-text,
     .drop-down,
     .footer-tablet-grid-container,

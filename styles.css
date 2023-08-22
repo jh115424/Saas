@@ -26,7 +26,9 @@ body {
 .woman-blazer,
 .footer-info-container,
 .footer-section-two,
-.footer-section-one {
+.footer-section-one,
+.social-media
+{
   display: flex;
 }
 
@@ -351,9 +353,6 @@ p.sub-header {
   height: 2px;
   background: #e6e9f2;
 }
-.connect:after {
-  background: #e6e9f2;
-}
 .connect-first:before,
 .connect-last::after {
   background: transparent;
@@ -419,15 +418,6 @@ p.sub-header {
   width: 250px;
   height: 650px;
 }
-
-.woman-blazer,
-.footer-info-container,
-.footer-section-two,
-.footer-section-one,
-.social-media {
-  display: flex;
-}
-
 .woman-arms-folded {
   display: flex;
   height: 500px;
@@ -502,10 +492,6 @@ h1 {
 .price-content {
   width: 400px;
   height: 500px;
-}
-
-.card-content:hover {
-  background-color: #f1f3f5;
 }
 
 .card-price {
@@ -589,7 +575,9 @@ h1 {
   align-items: baseline;
 }
 
-.hire-container {
+.hire-container,
+.people-container,
+.form-container {
   display: flex;
   flex-direction: column;
 }
@@ -616,11 +604,6 @@ h1 {
   margin-top: 10px;
 }
 
-.people-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .client-name {
   font-size: 24px;
   line-height: 2.8px;
@@ -641,15 +624,9 @@ h1 {
   height: 50px;
   width: 50px;
 }
-
 .man-one {
   height: 75px;
   width: 75px;
-}
-
-.form-container {
-  display: flex;
-  flex-direction: column;
 }
 
 .form-box {
@@ -876,7 +853,6 @@ img.location-arrow {
   display: flex;
   gap: 10px;
 }
-
 .site-location {
   height: 60px;
   background-color: #eae7e7;
@@ -884,7 +860,6 @@ img.location-arrow {
   margin-left: 35px;
   border-radius: 5px;
 }
-
 .legal-stuff {
   display: flex;
   margin-top: 45px;
