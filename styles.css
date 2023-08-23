@@ -814,8 +814,9 @@ img.location-arrow {
 .footer-info,
 .footer-info-two {
   display: flex;
+  width: max-content;
   align-items: center;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 .info-icon {
